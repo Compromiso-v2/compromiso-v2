@@ -1,0 +1,38 @@
+/*header*/
+
+header{
+    width: 100%;
+    background-color: #120a0a3d;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 20px;
+}
+
+header figure{
+    margin: 0;
+}
+
+.header__navigation{
+    display: flex;
+}
+
+.header__navigation ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    justify-content: space-between;
+}
+.header__navigation ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.navigation__link{
+    text-decoration: none;
+    color: white;
+}
