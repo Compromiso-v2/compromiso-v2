@@ -11,8 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 
-    <link rel='stylesheet' href='Public/css/styles.css' />
-	<link rel='stylesheet' href='Public/css/servicios.css' />
+    <link rel='stylesheet' href='../Public/css/styles.css' />
+	<link rel='stylesheet' href='../Public/css/servicios.css' />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="./public/stylesheets/header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,11 +29,16 @@
 
 		<section class="banner-section">
 			<article class="banner-section__image">
-				<img class="banner-section_image" src="Public/images/banners/banner-compromsio-servicios.png">
+				<img class="banner-section_image" src="../Public/images/banners/banner-compromsio-servicios.png">
 			</article>
 			
 
 			<article class="banner-section__text">
+
+				<span class="banner-section__image__span">
+					<img src="../Public/images/icons/medalla-compromiso-servicios.svg">
+				</span>
+
 				<!--<img class="banner-section__text_icon"src="Public/images/icons/medalla-compromiso-servicios.svg">-->
 				<span class="banner-section__text__span">
 					<h1 class="banner-section__text_h1">nuestros</h1> 
@@ -51,7 +56,7 @@
 
 				<div class="icons-section__box_icon">
 					
-					<a> <img src="./Public/images/icons/joystick.svg"> </a>
+					<a> <img src="../Public/images/icons/joystick.svg"> </a>
 
 				</div>			
 
@@ -65,8 +70,8 @@
 			</article>
 			
 			<article class="icons-section__box">
-				<div class="icons-section__box_icon">
-					<a> <img src="./Public/images/icons/camara-compromiso-servicios.svg"> </a>
+				<div class="icons-section__box_icon" >
+					<a class="icon-fotografia"> <img src="../Public/images/icons/camara-compromiso-servicios.svg" > </a>
 
 				</div>
 
@@ -80,7 +85,7 @@
 
 			<article class="icons-section__box">
 				<div class="icons-section__box_icon">
-					<a> <img src="./Public/images/icons/carrito-compromiso-servicios.svg"> </a>
+					<a> <img src="../Public/images/icons/carrito-compromiso-servicios.svg"> </a>
 				</div>
 
 				<div class="icons-section__box_text">
@@ -92,7 +97,7 @@
 
 			<article class="icons-section__box">
 				<div class="icons-section__box_icon">
-					<a> <img src="./Public/images/icons/megafono-compromiso-servicios.svg"> </a>
+					<a> <img src="../Public/images/icons/megafono-compromiso-servicios.svg"> </a>
 				</div>
 				
 				<div class="icons-section__box_text">
@@ -106,7 +111,7 @@
 
 			<article class="icons-section__box">
 				<div class="icons-section__box_icon">
-					<a> <img src="./Public/images/icons/web-compromiso-servicios.svg"> </a>
+					<a> <img src="../Public/images/icons/web-compromiso-servicios.svg"> </a>
 				</div>
 
 				<div class="icons-section__box_text">
@@ -119,7 +124,7 @@
 
 			<article class="icons-section__box">
 				<div class="icons-section__box_icon">
-					<a> <img src="./Public/images/icons/nube-compromiso-servicios.svg"> </a>
+					<a> <img src="../Public/images/icons/nube-compromiso-servicios.svg"> </a>
 				</div>
 
 				<div class="icons-section__box_text">
@@ -133,16 +138,16 @@
 		<section class="text-section">
 			<article class="text-section__box">
 
-				<div class="text-section__box_title">
-					<h1>diseño, programación y desarrollo de videojuegos </h1>
+				<div class="text-section__box_title" id="title-fotografia">
+					<h1>FOTOGRAFÍA DE PRODUCTO | DIGITALIZACIÓN DE CATÁLOGOS</h1>
 				</div>
 
 				<div class="text-section__box_text">
-					<p>Junto a nuestro equipo de diseñadores y desarrolladores</p> 
-					<p>damos vida a juegos que logren transmitir</p> 
-					<p>el mensaje de nuestros clientes</p>
-					<p>de una manera innovadora y creativa.</p> 
-					<p>Creamos experiencias de alto impacto en los usuarios.</p>
+					<p>Ofrecemos fotógrafos especializados en imágenes de productos</p> 
+					<p>que conocen las necesidades de los compradores y</p> 
+					<p>las exigencias de la plataforma.</p>
+					<p>En tiempos de venta online,</p> 
+					<p>el catálogo digital ocupa un rol clave.</p>
 				</div>
 
 			</article>
@@ -150,28 +155,27 @@
 		</section>
 
 		<section class="cart-section">
-			<article class="cart-section__cart">
-				<img src="Public/images/icons/check-compromiso-servicios.svg">
+			<article class="cart-section__cart cart-fotografia">
+				<img src="../Public/images/icons/check-compromiso-servicios.svg">
 
-				<h2>desarrollo de videojuegos</h2>
+				<h2>trabajo a domicilio</h2>
 
-				<p>Ofrecemos un desarrollo hecho a medida, de inicio a fin del proyecto.</p>
+				<p>Nuestro equipo de fotógrafos se traslada hasta donde estén para hacer el trabajo.</p>
 			</article>
 
 			<article class="cart-section__cart">
-				<img src="Public/images/icons/check-compromiso-servicios.svg">
+				<img src="../Public/images/icons/check-compromiso-servicios.svg">
 
-				<h2>CONSULTORÍA DE ARTE Y DISEÑO</h2>
+				<h2>simplicidad</h2>
 
-				<p>Desarrollo de arte propio.
-					Consultanos por íconos, imágenes, animaciones y diseños.</p>
+				<p>Armamos un estudio con luces y fondos para trabajar en donde sea.</p>
 
 			</article>
 
 			<article class="cart-section__cart">
-				<img src="Public/images/icons/check-compromiso-servicios.svg">
-				<h2>CONSULTORÍA DE DISEÑO DEL JUEGO</h2>
-				<p>Formalizamos y bajamos a documentos de trabajo tu idea para, a partir de allí, poder trabajar de forma organizada				   en el desarrollo.</p>
+				<img src="../Public/images/icons/check-compromiso-servicios.svg">
+				<h2>velocidad</h2>
+				<p>Hacemos y editamos fotos de productos en muy poco tiempo.</p>
 			</article>
 
 		</section>
