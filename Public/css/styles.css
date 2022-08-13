@@ -130,7 +130,7 @@ html{
     flex-direction: column;
     justify-content: space-between;
     width: 290px;
-    height: 230px;
+    height: 330px;
     border: 1px solid;
     border-radius: 2%;
     padding: 10px;
@@ -168,7 +168,7 @@ html{
 }
 
 .line{
-    width: 30%;
+    width: 20%;
     height: 1px;
     border: 1px solid blue;
 }
@@ -209,7 +209,110 @@ html{
 .impact{
     padding:50px;
 }
+
+.impact__title-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.impact__title-container .line{
+    width: 10%;
+}
+
 .impact__title{
     padding-bottom: 10px;
 
+}
+
+/***********************/
+.talent__count{
+    background-color: blue;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.talent__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    padding: 50px;
+    align-items: center;
+}
+
+.talent__card-text{
+    color: yellow;
+    text-align: center;
+    font-size: 75px;
+}
+
+.talent__card-p{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    width: 60%;
+}
+/***********************/
+
+
+/**************/
+/*contador*/
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ocultar {
+    opacity: 0;
+}
+
+.animar {
+    animation: aparecer 1.3s;
+}
+/******************/
+/*clientes*/
+
+
+.clients__title-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+.clients__slide{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slides{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.slides img{
+    width: 150px;
+    height: auto;
+}
+
+.slide__icon{
+    border: 1px solid blue;
+    border-radius: 50%;
+    padding: 0 5px;
+    color: blue;
+    font-size: 20px;
 }

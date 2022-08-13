@@ -17,6 +17,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="Public/css/glider/glider.css">
+  <script src="https://kit.fontawesome.com/e7e96c00ea.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -187,29 +189,71 @@
         <h2 class="section__title">nosotros</h2>
         <div class="line"></div>
       </div>
-      
+
       <div class="us__description">
-        <h2 class="us__text">Somos más que una agencia de servicios digitales, somos un programa que cree en la tecnología como motor de
+        <h2 class="us__text">Somos más que una agencia de servicios digitales, somos un programa que cree en la
+          tecnología como motor de
           crecimiento social. Trabajamos en la oferta de servicios y en la búsqueday preselección de talentos que <b>se
-          formaron en Potrero Digital</b>,
+            formaron en Potrero Digital</b>,
           un programa que forma en oficios digitales a personas en
           situación de vulnerabilidad social.</h2>
         <img class="us__image" src="Public/images/icons/hands-heart.svg" alt="">
         <h2 class="us__text">Compromiso Digital y <b class="yelow__text">Potrero Digital</b> son programas de
-          <b class="blue__text">Fundación Compromiso</b>, una oganización que identifica y potencia programas de innovación social. Así como
+          <b class="blue__text">Fundación Compromiso</b>, una oganización que identifica y potencia programas de
+          innovación social. Así como
           Potrero Digital forma
           personas en los nuevos oficios digitales,
           Compromiso Digital les acerca oportunidades de inserción
-          laboral en la tecnología y las industrias del conocimiento.</h2>
+          laboral en la tecnología y las industrias del conocimiento.
+        </h2>
         <a class="us__link" href="">Ir a Potrero Digital</a>
       </div>
     </section>
     <section class="impact">
-      <h2 class="section__title">Nuestro impacto</h2>
+      <div class="impact__title-container">
+        <h2 class="section__title">Nuestro impacto</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="talent__count">
+        <div class="talent__card show-boxes ocultar">
+          <h2 class="talent__card-text contador-cantidad" data-cantidad-total="7700">0</h2>
+          <p class="talent__card-p">Participantes de Potrero Digital</p>
+        </div>
+        <div class="talent__card show-boxes ocultar">
+          <h2 class="talent__card-text contador-cantidad" data-cantidad-total="3100">0</h2>
+          <p class="talent__card-p">Alumnos graduados de Potrero Digital</p>
+        </div>
+        <div class="talent__card show-boxes ocultar">
+          <h2 class="talent__card-text contador-cantidad" data-cantidad-total="1700">0</h2>
+          <p class="talent__card-p">Graduados empleados</p>
+        </div>
+      </div>
 
     </section>
     <section class="clients">
-
+      <div class="clients__title-container">
+        <div class="line"></div>
+        <h2 class="section__title">Nuestros Clientes</h2>
+        <div class="line"></div>
+      </div>
+      <div class="clients__slide"> 
+        <div class="glider-contain">
+          <div class="glider">
+            <div class="slides"><img src="Public/images/clients/Compromiso-Digital-aComunidad.webp" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/Compromiso-Digital-Camuzzi.webp" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/Compromiso-Digital-ferrazzi.webp" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/Compromiso-Digital-Identia.webp" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/Compromiso-Digital-logo-proa.webp" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/Compromiso-Digital-logoSiliconglove.webp" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/Compromiso-Digital-NutriVirtual.webp" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/Compromiso-Digital-vulcano.webp" alt=""></div>
+          </div>
+          <button aria-label="Previous" class="glider-prev"><i class="slide__icon fa-solid fa-angle-left"></i></button>
+          <button aria-label="Next" class="glider-next"><i class="slide__icon fa-solid fa-angle-right"></i></button>
+          <div role="tablist" class="dots"></div>
+        </div>
+      </div>
     </section>
     <section class="contact">
 
@@ -220,6 +264,10 @@
   <footer>
 
   </footer>
+  <script src="Public/js/glider/glider.js"></script>
+  <script src="Public/js/slider.js"></script>
+
+  <script src="Public/js/slider.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -229,7 +277,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-
+  <script src="Public/js/contador.js"></script>
 </body>
 
 </html>
