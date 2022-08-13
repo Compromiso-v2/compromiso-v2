@@ -168,6 +168,10 @@ body {
 	padding: 20px;
 }
 
+.icon-fotografia img {
+	color : #D96B2B;
+}
+
 .text-section__box .text-section__box_title h1 {
 	font-weight: 600;
 	font-size: 30px;
@@ -177,6 +181,25 @@ body {
 	text-transform: uppercase;
 	color: #1EC39B;
 }
+
+
+.text-section__box #title-tecnologia h1 {
+	color: #284694;
+}
+
+.text-section__box #title-marketing h1 {
+	color: #D96B2B
+}
+
+.text-section__box #title-comercio h1 {
+	color: #929629;
+}
+
+.text-section__box #title-fotografia h1 {
+	color: #503AA6;
+	letter-spacing: 0;
+}
+
 
 .text-section__box .text-section__box_text p {
 	font-weight: 400;
@@ -237,7 +260,12 @@ body {
 	margin-top: -70px;
 }
 
+/* hover card */
+.cart-section .cart-fotografia:hover {
+	border: 1px solid #503AA6;
+	box-shadow: 4px 4px 0px #503AA6;
+	transition: transform .03s;
 
 
-
+}
 
