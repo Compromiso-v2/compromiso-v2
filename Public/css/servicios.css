@@ -153,6 +153,26 @@ body {
 	
 }
 
+.icons-section__box .icons-section__box_text-fotografia {
+	color: #503AA6;
+}
+
+.icons-section__box .icons-section__box_text-comercio {
+	color: #929629;
+}
+
+.icons-section__box .icons-section__box_text-marketing {
+	color: #D96B2B;
+}
+
+.icons-section__box .icons-section__box_text-desarrollo {
+	color: #284694; 
+} 
+
+.icons-section__box .icons-section__box_text-web {
+	color: #28BFB2; 
+}
+
 .icons-section__box .icons-section__box_icon {
 	text-align: center;
 	margin-bottom: 30px;
@@ -212,8 +232,6 @@ body {
 }
 
 
-
-
 .cart-section {
 	display: flex;
 	justify-content: center;
@@ -256,16 +274,130 @@ body {
 }
 
 
-.cart-section .cart-section__cart img {
+.cart-section .cart-section__cart_svg {
 	margin-top: -70px;
 }
 
 /* hover card */
+
+/* -- fotografia ---*/
 .cart-section .cart-fotografia:hover {
 	border: 1px solid #503AA6;
 	box-shadow: 4px 4px 0px #503AA6;
-	transition: transform .03s;
-
+	transition: transform .05s;
 
 }
 
+.cart-section .cart-fotografia:hover .svg-fotografia {
+	fill: #503AA6;
+}
+
+.cart-section .cart-fotografia:hover p {
+	color: #503AA6;
+}
+
+.cart-section .cart-fotografia:hover h2 {
+	color: #503AA6;
+}
+
+
+/* -- marketing ---*/
+.cart-section .cart-marketing:hover {
+	border: 1px solid #D96B2B;
+	box-shadow: 4px 4px 0px #D96B2B;
+	transition: transform .05s;
+
+}
+
+.cart-section .cart-marketing:hover .svg-marketing {
+	fill: #D96B2B;
+}
+
+.cart-section .cart-marketing:hover p {
+	color: #D96B2B;
+}
+
+.cart-section .cart-marketing:hover h2 {
+	color: #D96B2B;
+}
+
+/* -- desarrollo web --*/
+.cart-section .cart-web:hover {
+	border: 1px solid #28BFB2;
+	box-shadow: 4px 4px 0px #28BFB2;
+	transition: transform .05s;
+
+}
+
+.cart-section .cart-web:hover .svg-web {
+	fill: #28BFB2;
+}
+
+.cart-section .cart-web:hover p {
+	color: #28BFB2;
+}
+
+.cart-section .cart-web:hover h2 {
+	color: #28BFB2;
+}
+
+/* -- desarrollo tecnologico -- */
+.cart-section .cart-desarrollo:hover {
+	border: 1px solid #284694;
+	box-shadow: 4px 4px 0px #284694;
+	transition: transform .05s;
+
+}
+
+.cart-section .cart-desarrollo:hover .svg-desarrollo {
+	fill: #284694;
+}
+
+.cart-section .cart-desarrollo:hover p {
+	color: #284694;
+}
+
+.cart-section .cart-desarrollo:hover h2 {
+	color: #284694;
+}
+
+/* -- comercio electronico*/
+.cart-section .cart-comercio:hover {
+	border: 1px solid #929629;
+	box-shadow: 4px 4px 0px #929629;
+	transition: transform .05s;
+
+}
+
+.cart-section .cart-comercio:hover .svg-comercio {
+	fill: #929629;
+}
+
+.cart-section .cart-comercio:hover p {
+	color: #929629;
+}
+
+.cart-section .cart-comercio:hover h2 {
+	color: #929629;
+}
+
+
+/* -- videojuegos -- */
+.cart-section .cart-videojuego:hover {
+	border: 1px solid #28BFB2;
+	box-shadow: 4px 4px 0px #28BFB2;
+	transition: transform .05s;
+
+}
+
+.cart-section .cart-videojuego:hover .svg-videojuego {
+	fill: #28BFB2;
+}
+
+.cart-section .cart-videojuego:hover p {
+	color: #28BFB2;
+}
+
+.cart-section .cart-videojuego:hover h2 {
+	color: #28BFB2;
+}
