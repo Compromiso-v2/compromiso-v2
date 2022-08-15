@@ -26,6 +26,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="Public/css/glider/glider.css">
   <script src="https://kit.fontawesome.com/e7e96c00ea.js" crossorigin="anonymous"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KT704FH52G"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-KT704FH52G');
+  </script>
 </head>
 
 <body>
@@ -386,60 +395,58 @@
 
       <div class="form">
         <h2 class="form__title">Envíanos un mensaje</h2>
-        <form action="">
+        <form action="https://formspree.io/f/mnqwpkyp" method="POST" id="form">
           <div class="form-group">
             <div class="form__item">
               <label for="name">Nombre</label>
-              <input id="name" type="text" placeholder="Tu nombre">
+              <input id="name" type="text" placeholder="Tu nombre" name="nombre">
             </div>
             <div class="form__item">
               <label for="phone">Teléfono</label>
-              <input id="phone" type="number" placeholder="Tu telefono">
+              <input id="phone" type="number" placeholder="Tu telefono" name="telefono">
             </div>
           </div>
-
           <div class="form-group">
             <div class="form__item">
               <label for="business">Empresa</label>
-              <input id="business" type="text" placeholder="El nombre de tu empresa">
+              <input id="business" type="text" placeholder="El nombre de tu empresa" name="empresa">
             </div>
             <div class="form__item">
               <label for="email">email</label>
-              <input id="email" type="mail" placeholder="Tu email">
+              <input id="email" type="mail" placeholder="Tu email" name="email">
             </div>
           </div>
-
           <div class="form-group2">
             <div class="form__item">
               <label for="search_talents">Buscar talentos</label>
-              <select name="select">
+              <select name="talentos">
                 <option value="0" selected>Seleccionar</option>
-                <option value="cloud">CLOUD PRACTITIONER AWS</option>
-                <option value="fullstack">PROGRAMADOR FULL STACK</option>
-                <option value="asist-e-commerce">ASISTENTES DE VENTAS DE E-COMMERCE</option>
-                <option value="community">COMMUNITY MANAGER</option>
-                <option value="marketing">ANALISTA DE MARKETING / PAID MEDIA</option>
-                <option value="animation">ASISTENTE DE ANIMACION DE VIDEO</option>
-                <option value="games_development">ASISTENTE DE DESARROLLO DE VIDEOJUEGOS</option>
+                <option value="CLOUD PRACTITIONER AWS">CLOUD PRACTITIONER AWS</option>
+                <option value="PROGRAMADOR FULL STACK">PROGRAMADOR FULL STACK</option>
+                <option value="ASISTENTES DE VENTAS DE E-COMMERCE">ASISTENTES DE VENTAS DE E-COMMERCE</option>
+                <option value="COMMUNITY MANAGER">COMMUNITY MANAGER</option>
+                <option value="ANALISTA DE MARKETING / PAID MEDIA">ANALISTA DE MARKETING / PAID MEDIA</option>
+                <option value="ASISTENTE DE ANIMACION DE VIDEO">ASISTENTE DE ANIMACION DE VIDEO</option>
+                <option value="ASISTENTE DE DESARROLLO DE VIDEOJUEGOS">ASISTENTE DE DESARROLLO DE VIDEOJUEGOS</option>
               </select>
             </div>
             <div class="form__item">
               <label for="search_services">Contratar servicios</label>
-              <select name="select">
+              <select name="servicios">
                 <option value="0" selected>Seleccionar</option>
-                <option value="games">Desarrollo de videojuegos</option>
-                <option value="photography">Fotografia de productos</option>
-                <option value="e-commerce">Comercio electronico</option>
-                <option value="marketing">Marketing digital</option>
-                <option value="technologic">Desarrollo tecnologico</option>
-                <option value="web">Desarrollo web</option>
+                <option value="Desarrollo de videojuegos">Desarrollo de videojuegos</option>
+                <option value="Fotografia de productos">Fotografia de productos</option>
+                <option value="Comercio electronico">Comercio electronico</option>
+                <option value="Marketing digital">Marketing digital</option>
+                <option value="Desarrollo tecnologico">Desarrollo tecnologico</option>
+                <option value="Desarrollo web">Desarrollo web</option>
               </select>
             </div>
           </div>
           <div class="form-group">
             <div class="form__item">
               <label for="message">Mensaje</label>
-              <textarea id="message" name="message" rows="4" cols="50"></textarea>
+              <textarea id="message" name="message" rows="4" cols="50" name="mensaje"></textarea>
             </div>
           </div>
           <input type="submit" value="Enviar mensaje">
@@ -467,6 +474,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
+  <script src="Public/js/formulario.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
