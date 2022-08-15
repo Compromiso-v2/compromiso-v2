@@ -1,0 +1,287 @@
+
+* {
+	margin : 0;
+	padding : 0;
+	box-sizing : border-box;
+}
+
+@font-face {
+    font-family: 'Barlow_condensed_regular';
+    src: url('./fonts/BarlowCondensed/BarlowCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Barlow_condensed_medium';
+    src: url('./fonts/BarlowCondensed/BarlowCondensed-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Barlow_condensed_semibold';
+    src: url('./fonts/BarlowCondensed/BarlowCondensed-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Barlow_regular';
+    src: url('./fonts/Barlow/Barlow-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Barlow_semibold';
+    src: url('./fonts/Barlow/Barlow-SemiBold.ttf');
+}
+
+
+body {
+	width: 100%;
+}
+
+/* banner  */
+
+.banner-section {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 350px;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	align-content: center;
+	justify-content: center;
+}
+
+
+.banner-section__image {
+	grid-area: 1 / 1 / 3 / 2;
+}
+
+.banner-section__icon {
+	grid-area: 1 / 1 / 2 / 2;
+}
+
+.banner-section__text {
+	grid-area: 1 / 1 / 2 / 2;
+}
+
+.banner-section_image {
+	display: grid;
+	min-width: 350px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.banner-section__text {
+	display: grid;
+	align-items: center;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.banner-section__text__span {
+	/*margin-top: 0.5em;*/
+	margin-top: 20px;
+}
+
+.banner-section__image__span {
+	text-align: center;
+	margin-top: 14%;
+	
+}
+
+
+.banner-section .banner-section__text h1 {
+	font-family: 'Barlow_condensed_regular';
+	font-weight: 600;
+	font-size: 70px;
+	line-height: 64px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+}
+
+.banner-section .banner-section__text_h1 {
+	color: #FFFFFF;
+	margin-bottom: 0;
+}
+
+.banner-section .banner-section__text_h2 {
+	color: #D3D93C;
+}
+
+/* -- icons --*/
+
+
+.talent-icons-section {
+	display: flex;
+	justify-content: center;
+}
+
+.talent-icons-section__box {
+	padding: 20px;
+}
+
+.talent-icons-section__box .talent-icons-section__box_text {
+	width: 130px;
+	
+}
+
+.talent-icons-section__box .talent-icons-section__box_text p {
+	font-family: 'Barlow_regular';
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	margin-bottom: 0;
+	color: #50535C;
+	text-transform: uppercase;
+	
+}
+
+.talent-icons-section__box .talent-icons-section__box_text-fotografia {
+	color: #503AA6;
+}
+
+.talent-icons-section__box .talent-icons-section__box_text-comercio {
+	color: #929629;
+}
+
+.talent-icons-section__box .talent-icons-section__box_text-marketing {
+	color: #D96B2B;
+}
+
+.talent-icons-section__box .talent-icons-section__box_text-desarrollo {
+	color: #284694; 
+} 
+
+.talent-icons-section__box .talent-icons-section__box_text-web {
+	color: #28BFB2; 
+}
+
+.talent-icons-section__box .talent-icons-section__box_icon {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/* --- */
+
+.talent-text-section {
+	padding: 150px;			
+
+}
+
+.talent-text-section__box .talent-text-section__box-text {
+	padding: 20px;
+}
+
+
+.talent-text-section__box-text .talent-text-section__box-text__box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+
+.talent-text-section__box-text__box .talent-text-section__box-text__box_image {
+	padding-right: 20px;
+}
+
+.talent-text-section__box-text__box .talent-text-section__box-text__box_text {
+	width: 523px;
+}
+
+
+.talent-text-section__box-text__box .talent-text-section__box-text__box_text p {
+	font-family: 'Barlow_regular';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: -0.02em;
+	color: #50535C;
+}
+
+.talent-text-section__box .talent-text-section__box_title {
+	padding-bottom: 100px;
+}
+
+.talent-text-section__box .talent-text-section__box_title h1 {
+	
+	font-family: 'Barlow_condensed_regular';
+	font-weight: 600;
+	font-size: 38px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #1EC39B;
+}
+
+
+.talent-text-section__box #title-talent-programacion h1 {
+	color: #0FBF94;
+}
+
+.talent-text-section__box #title-talent-ecommerce h1 {
+	color: #929629;
+}
+
+.talent-text-section__box #title-talent-manager h1 {
+	color: #D96B2B;
+}
+
+.talent-text-section__box #title-talent-marketing h1 {
+	color: #D96B2B;
+}
+
+.talent-text-section__box #title-talent-animacion h1 {
+	color: #28BFB2;
+}
+
+
+
+.talent-text-section__box #title-talent-videojuego h1 {
+	color: #28BFB2;
+}
+
+
+ .talent-icons-section__box .text-talent-programacion p {
+	color: #0FBF94;
+}
+
+ .talent-icons-section__box .text-talent-ecommerce p {
+	color: #929629;
+}
+
+ .talent-icons-section__box .text-talent-manager p {
+	color: #D96B2B;
+}
+
+ .talent-icons-section__box .text-talent-marketing p {
+	color: #D96B2B;
+}
+
+ .talent-icons-section__box .text-talent-animacion p {
+	color: #28BFB2;
+}
+
+.talent-icons-section__box .text-talent-videojuegos p {
+	color: #28BFB2;
+}
+
+
+
+
+
+
+/*
+.talent-text-section__box .talent-text-section__box-text p {
+	font-family: 'Barlow_condensed_regular';
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 43px;
+	text-align: center;
+	letter-spacing: -0.025em;
+	margin-bottom: 0;
+	color: #50535C;
+}
+
+*/
+

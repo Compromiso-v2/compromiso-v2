@@ -5,6 +5,31 @@
 	box-sizing : border-box;
 }
 
+@font-face {
+    font-family: 'Barlow_condensed_regular';
+    src: url('./fonts/BarlowCondensed/BarlowCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Barlow_condensed_medium';
+    src: url('./fonts/BarlowCondensed/BarlowCondensed-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Barlow_condensed_semibold';
+    src: url('./fonts/BarlowCondensed/BarlowCondensed-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Barlow_regular';
+    src: url('./fonts/Barlow/Barlow-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Barlow_semibold';
+    src: url('./fonts/Barlow/Barlow-SemiBold.ttf');
+}
+
 
 body {
 	width: 100%;
@@ -52,12 +77,12 @@ body {
 
 .banner-section__text__span {
 	/*margin-top: 0.5em;*/
-	margin-top: 0;
+	margin-top: 20px;
 }
 
 .banner-section__image__span {
 	text-align: center;
-	margin-top: 15%;
+	margin-top: 14%;
 	
 }
 
@@ -69,8 +94,9 @@ body {
 */
 
 .banner-section .banner-section__text h1 {
+	font-family: 'Barlow_condensed_regular';
 	font-weight: 600;
-	font-size: 50px;
+	font-size: 70px;
 	line-height: 64px;
 	text-align: center;
 	letter-spacing: -0.02em;
@@ -87,48 +113,6 @@ body {
 }
 
 
-/*
-.banner-section .banner-section_image {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-}
-
-.banner-section .banner-section__text {
-	width: 100%;
-	height: 100vh;
-	display: flex;
-	z-index: 1;
-	position: relative;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
-.banner-section .banner-section__text_icon {
-	margin-bottom: 40px;
-}
-
-.banner-section .banner-section__text h1 {
-	font-weight: 600;
-	font-size: 70px;
-	line-height: 64px;
-	text-align: center;
-	letter-spacing: -0.02em;
-	text-transform: uppercase;
-}
-
-.banner-section .banner-section__text_h1 {
-	color: #FFFFFF;
-}
-
-.banner-section .banner-section__text_h2 {
-	color: #D3D93C;
-}
-*/
-/* --- */
-
 .icons-section {
 	display: flex;
 	justify-content: center;
@@ -144,6 +128,7 @@ body {
 }
 
 .icons-section__box .icons-section__box_text p {
+	font-family: 'Barlow_regular';
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 18px;
@@ -193,6 +178,8 @@ body {
 }
 
 .text-section__box .text-section__box_title h1 {
+	
+	font-family: 'Barlow_condensed_regularondensed';
 	font-weight: 600;
 	font-size: 30px;
 	line-height: 22px;
@@ -220,10 +207,10 @@ body {
 	letter-spacing: 0;
 }
 
-
 .text-section__box .text-section__box_text p {
+	font-family: 'Barlow_condensed_regular';
 	font-weight: 400;
-	font-size: 28px;
+	font-size: 35px;
 	line-height: 43px;
 	text-align: center;
 	letter-spacing: -0.025em;
@@ -253,6 +240,7 @@ body {
 
 
 .cart-section .cart-section__cart p {
+	font-family: 'Barlow_regular';
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 19px;
@@ -263,8 +251,9 @@ body {
 
 
 .cart-section .cart-section__cart h2 {
+	font-family: 'Barlow_condensed_regular';
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 22px;
 	line-height: 19px;
 	text-align: center;
 	letter-spacing: -0.02em;
