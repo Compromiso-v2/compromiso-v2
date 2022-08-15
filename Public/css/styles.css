@@ -139,6 +139,10 @@ html {
     flex-direction: row;
     padding: 50px;
     background-color: #F3F3F3;
+    justify-content: center;
+}
+#talents:target{
+    padding-top: 10%;
 }
 
 .banner__image{
@@ -178,7 +182,7 @@ html {
 }
 
 .talents__cards {
-    width: 70%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -281,6 +285,9 @@ html {
 /*Servicios*/
 .services {
     padding: 50px;
+}
+#services:target{
+    padding-top: 10%;
 }
 
 
@@ -462,6 +469,10 @@ html {
     text-align: center;
 }
 
+#us:target{
+    padding-top: 10%;
+}
+
 .us__title-container {
     display: flex;
     flex-direction: row;
@@ -523,6 +534,9 @@ html {
 .impact {
     padding: 50px;
     background-color: #F3F3F3;
+}
+#impact:target{
+    padding-top: 10%;
 }
 
 .impact__title-container {
