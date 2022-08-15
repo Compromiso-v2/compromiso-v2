@@ -112,6 +112,7 @@ body {
 .talent-icons-section {
 	display: flex;
 	justify-content: center;
+	padding-top: 100px;
 }
 
 .talent-icons-section__box {

@@ -116,6 +116,7 @@ body {
 .icons-section {
 	display: flex;
 	justify-content: center;
+	padding-top: 100px;
 }
 
 .icons-section__box {
@@ -222,6 +223,7 @@ body {
 .cart-section {
 	display: flex;
 	justify-content: center;
+	padding-bottom: 100px;
 }
 
 
