@@ -13,6 +13,22 @@ header{
     transition: 1s;
 }
 
+.header-subpages {
+    position: inherit;
+    background-color: white;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--primaryBlue);
+    font-family: "Barlow_semibold";
+}
+
+.header-subpages .navigation__link{
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--primaryBlue);
+    font-family: "Barlow_semibold";
+}
+
 header figure{
     margin: 0;
 }
