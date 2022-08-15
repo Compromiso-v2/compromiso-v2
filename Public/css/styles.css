@@ -25,6 +25,12 @@
 }
 
 @font-face {
+    font-family: 'Barlow_medium';
+    src: url('./fonts/Barlow/Barlow-Medium.ttf');
+}
+
+
+@font-face {
     font-family: 'Barlow_semibold';
     src: url('./fonts/Barlow/Barlow-SemiBold.ttf');
 }
@@ -104,7 +110,18 @@ html {
     font-family: 'Barlow_condensed_semibold';
     justify-content: flex-start;
 }
-
+.banner__text-2{
+    left: 10%;
+    display: flex;
+    align-self: left;
+    justify-self: center;
+    color: var(--primaryYellow);
+    font-size: 65px;
+    text-transform: uppercase;
+    font-family: 'Barlow_condensed_semibold';
+    justify-content: flex-start;
+}
+    
 .banner__line {
     width: 50%;
     border: 1px solid var(--primaryYellow);
@@ -329,6 +346,11 @@ html {
     transition: 0.5s;
 }
 
+.cards__line{
+    border: 1px solid gray;
+    width: 50%;
+}
+
 .services__cards .cards__item-1:hover {
     border: 1px solid var(--primaryGreen);
     box-shadow: 4px 4px 0px var(--primaryGreen);
@@ -344,6 +366,11 @@ html {
 }
 .services__cards  .cards__item-1:hover > .services__card-link{
     color: var(--primaryGreen);
+}
+.services__cards  .cards__item-1:hover > .cards__line-1{
+    border: 1px solid var(--primaryGreen);;
+    width: 50%;
+    height: 1px;
 }
 
 .services__cards .cards__item-2:hover {
@@ -362,6 +389,12 @@ html {
 .services__cards  .cards__item-2:hover > .services__card-link{
     color: var(--primaryPurple);
 }
+.services__cards  .cards__item-2:hover > .cards__line-2{
+    border: 1px solid var(--primaryPurple);;
+    width: 50%;
+    height: 1px;
+}
+
 
 .services__cards .cards__item-3:hover {
     border: 1px solid var(--secondaryYellow);
@@ -378,6 +411,11 @@ html {
 }
 .services__cards  .cards__item-3:hover > .services__card-link{
     color: var(--secondaryYellow);
+}
+.services__cards  .cards__item-3:hover > .cards__line-3{
+    border: 1px solid var(--secondaryYellow);;
+    width: 50%;
+    height: 1px;
 }
 
 .services__cards .cards__item-4:hover {
@@ -396,6 +434,11 @@ html {
 .services__cards  .cards__item-4:hover > .services__card-link{
     color: var(--secondaryOrange);
 }
+.services__cards  .cards__item-4:hover > .cards__line-4{
+    border: 1px solid var(--secondaryOrange);;
+    width: 50%;
+    height: 1px;
+}
 
 .services__cards .cards__item-5:hover {
     border: 1px solid var(--primaryBlue);
@@ -412,6 +455,11 @@ html {
 }
 .services__cards  .cards__item-5:hover > .services__card-link{
     color: var(--primaryBlue);
+}
+.services__cards  .cards__item-5:hover > .cards__line-5{
+    border: 1px solid var(--primaryBlue);;
+    width: 50%;
+    height: 1px;
 }
 
 
@@ -431,6 +479,12 @@ html {
 .services__cards  .cards__item-6:hover > .services__card-link{
     color: var(--secondaryLightblue);
 }
+.services__cards  .cards__item-6:hover > .cards__line-6{
+    border: 1px solid var(--secondaryLightblue);
+    width: 50%;
+    height: 1px;
+}
+
 
 
 
@@ -503,7 +557,6 @@ html {
     font-size: 35px;
     font-weight: 300;
     color: var(--pimaryGray);
-    ;
     letter-spacing: -2.5%;
     font-weight: 400;
 }
@@ -599,6 +652,7 @@ html {
     text-align: center;
     font-size: 16px;
     width: 60%;
+    font-family: "Barlow_medium";
 }
 
 /***********************/
@@ -670,8 +724,109 @@ html {
 /*contacto*/
 .contact{
     background-color: var(--primaryBlue);
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
 }
 
+.contact__description{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact__title{ 
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Barlow_condensed_semibold', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: white;
+}
+
+.contact__line{
+    width: 50%;
+    border: 1px solid var(--primaryYellow);
+    margin: 5px 0 25px 0;
+}
+
+.contact__text{
+    width: 50%;
+    color: white;
+    font-family: "Barlow_condensed_regular";
+}
+
+.contact__list{
+    list-style: none;
+    padding: 0;
+}
+
+.contact__list-item{
+    list-style: none;
+    color: white;
+}
+
+
+.form{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    width: 100%;
+}
+
+.form__title{
+    font-family: "Barlow_condensed_semibold";
+    font-size: 40px;
+    color: white;
+}
+
+.form__item{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 0px;
+    width: inherit;
+
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.form-group-2{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-family: "Barlow_medium";
+    color: white;
+}
+
+form input, textarea{
+    border: 1px solid var(--secondaryLightblue);
+    border-radius: 6px;
+    padding:10px 10px 10px 16px;
+}
+
+select{
+    border: 1px solid var(--secondaryLightblue);
+    color: black;
+    border-radius: 6px;
+    padding:10px 10px 10px 16px;
+}
+
+input[type=submit]{
+    padding: 10px 10px 10px 10px;
+    font-family: "Barlow_medium";
+    margin-top: 20px;
+}
 
 /************************/
 /*footer*/

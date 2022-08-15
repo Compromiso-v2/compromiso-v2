@@ -26,6 +26,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="Public/css/glider/glider.css">
   <script src="https://kit.fontawesome.com/e7e96c00ea.js" crossorigin="anonymous"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KT704FH52G"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-KT704FH52G');
+  </script>
 </head>
 
 <body>
@@ -36,8 +45,8 @@
     </figure>
     <nav class="header__navigation">
       <ul>
-        <li><a class="navigation__link" id="link1" href="#services"> Servicios</a></li>
         <li><a class="navigation__link" id="link2" href="#talents">Talentos</a> </li>
+        <li><a class="navigation__link" id="link1" href="#services"> Servicios</a></li>
         <li><a class="navigation__link" id="link3" href="#us">Nosotros</a> </li>
         <li><a class="navigation__link" id="link4" href="#impact">Nuestro Impacto</a> </li>
       </ul>
@@ -61,51 +70,7 @@
             <img class="d-block w-100" src="Public/images/HEADER 1 2.png" alt="second slide">
             <div class="banner__content">
               <h1 class="banner__text">ofrecemos oportunidades laborales en la industria digital a estudiantes de</h1>
-              <svg class="banner__img" width="492" height="47" viewBox="0 0 492 47" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M26.7143 0.132684C28.3127 0.132684 29.2957 1.34368 29.6356 3.75689C29.8731 4.13857 30.1927 4.46696 30.573 4.72005C30.9532 4.97313 31.3853 5.14502 31.8403 5.22423C33.6776 5.48942 34.5963 6.33802 34.5963 7.77003V19.4029C34.5963 20.941 33.3377 21.8868 30.8666 22.2139C30.4624 22.4425 30.116 22.7546 29.8523 23.1275C29.5886 23.5005 29.4142 23.9251 29.3416 24.3708C29.0415 26.1387 28.1596 27.0226 26.6959 27.0226H11.9149C9.15891 27.0226 7.73501 27.6768 7.73501 29.0115C7.53291 29.0115 7.39511 29.8248 7.33081 31.4247V44.5603C7.09196 46.1603 6.27436 46.9736 4.85046 46.9736H2.48035C0.817595 46.7437 0 45.9305 0 44.525V2.48399C0.238848 0.884024 1.05644 0.0708008 2.48035 0.0708008L26.7143 0.132684ZM7.33081 15.5135C7.33081 18.1654 8.01061 19.5355 9.39776 19.5355C9.39776 19.7653 10.2429 19.8979 11.9149 19.9244H22.709C25.4649 19.9244 26.8888 19.2703 26.8888 17.9355C27.0909 17.9355 27.2287 17.1223 27.293 15.5224V11.6329C27.293 8.98105 26.6132 7.61093 25.2169 7.61093C25.2169 7.41645 24.3717 7.28386 22.709 7.22198H11.9149C9.15891 7.22198 7.73501 7.9115 7.73501 9.24628C7.53291 9.24628 7.39511 10.033 7.33081 11.6329V15.5135Z"
-                  fill="#D3D93C" />
-                <path
-                  d="M64.9582 0.0974121C66.5199 0.0974121 67.4661 1.29963 67.806 3.72167C68.0349 4.1049 68.3486 4.43497 68.7248 4.68855C69.1011 4.94213 69.5307 5.11299 69.9832 5.18901C71.8205 5.4542 72.7391 6.3028 72.7391 7.73482V39.3628C72.7391 40.9009 71.5173 41.8467 69.0645 42.1738C68.6604 42.4024 68.314 42.7144 68.0503 43.0874C67.7866 43.4604 67.6122 43.885 67.5396 44.3307C67.264 46.0986 66.4188 46.9825 64.9582 46.9825H46.4474C44.8857 46.9825 43.9365 45.7744 43.5996 43.3583C43.3722 42.9739 43.059 42.6428 42.6825 42.3891C42.306 42.1353 41.8756 41.9652 41.4224 41.8909C39.5852 41.6258 38.6665 40.7771 38.6665 39.3451V7.78785C38.6665 6.24977 39.8883 5.30394 42.3411 4.97687C42.7542 4.75577 43.1091 4.44632 43.3783 4.07236C43.6475 3.6984 43.8238 3.26992 43.8936 2.82002C44.16 1.0521 45.0144 0.168144 46.475 0.168144L64.9582 0.0974121ZM45.9422 35.4557C45.9422 38.137 46.622 39.4777 47.9816 39.4777C47.9816 39.7075 48.7992 39.8402 50.4252 39.902H61.0172C63.7731 39.902 65.096 39.2125 65.096 37.8777C65.2981 37.8777 65.4359 37.0645 65.5002 35.4646V11.5977C65.5002 8.94583 64.8204 7.57571 63.4608 7.57571C63.4608 7.34588 62.6432 7.2133 61.0172 7.15143H50.4252C47.6693 7.15143 46.3464 7.8409 46.3464 9.17567C46.1443 9.17567 46.0065 9.98889 45.9422 11.5889V35.4557Z"
-                  fill="#D3D93C" />
-                <path
-                  d="M108.198 0.132684C109.86 0.362513 110.678 1.17572 110.678 2.58121V4.83529C110.439 6.43525 109.622 7.24853 108.198 7.24853H101.547C98.7907 7.24853 97.3668 7.93799 97.3668 9.27277C97.1647 9.27277 97.0269 10.0595 96.9626 11.6595V44.5869C96.7238 46.1868 95.9062 47 94.4823 47H92.1213C90.4586 46.7702 89.641 45.957 89.641 44.5515V11.6241C89.641 8.97225 88.9612 7.60208 87.5648 7.60208C87.5648 7.40761 86.7197 7.27501 85.0569 7.21313H78.5345C76.8718 6.98331 76.0542 6.1701 76.0542 4.76461V2.48399C76.293 0.884024 77.1106 0.0708008 78.5345 0.0708008L108.198 0.132684Z"
-                  fill="#D3D93C" />
-                <path
-                  d="M140.811 0.159175C142.409 0.159175 143.392 1.37017 143.732 3.78338C143.97 4.16507 144.289 4.49351 144.67 4.74659C145.05 4.99967 145.482 5.17157 145.937 5.25078C147.774 5.51596 148.693 6.36457 148.693 7.79658V19.4383C148.693 20.8791 147.508 21.8869 145.092 22.5056C144.922 22.6021 144.782 22.7408 144.686 22.9072C144.591 23.0736 144.544 23.2615 144.55 23.4514V23.5487C144.55 24.2382 145.569 24.8569 147.572 25.4138C148.222 25.9658 148.624 26.7391 148.693 27.5707V44.5869C148.454 46.1868 147.636 47 146.212 47H143.833C142.17 46.7702 141.353 45.957 141.353 44.5515V31.4601C141.353 28.8083 140.673 27.4381 139.277 27.4381C139.277 27.2082 138.432 27.0756 136.769 27.0491H126.011C123.255 27.0491 121.832 27.7033 121.832 29.038C121.629 29.038 121.492 29.8513 121.427 31.4513V44.5603C121.189 46.1603 120.371 46.9736 118.947 46.9736H116.568C114.905 46.7437 114.087 45.9305 114.087 44.525V2.48399C114.326 0.884024 115.144 0.0708008 116.568 0.0708008L140.811 0.159175ZM121.427 15.5489C121.427 18.2008 122.107 19.5709 123.494 19.5709C123.494 19.8007 124.339 19.9333 126.011 19.9598H136.806C139.561 19.9598 140.985 19.3057 140.985 17.9709C141.187 17.9709 141.325 17.1577 141.39 15.5577V11.6683C141.39 9.01644 140.71 7.64632 139.313 7.64632C139.313 7.45185 138.468 7.31925 136.806 7.25738H126.011C123.255 7.25738 121.832 7.94684 121.832 9.28162C121.629 9.28162 121.492 10.0683 121.427 11.6683V15.5489Z"
-                  fill="#D3D93C" />
-                <path
-                  d="M184.345 0C186.008 0.229829 186.853 1.04309 186.853 2.44858V4.70266C186.614 6.30262 185.769 7.11585 184.308 7.11585H164.098C161.342 7.11585 159.918 7.80537 159.918 9.14014C159.716 9.14014 159.578 9.92682 159.514 11.5268V15.4162C159.514 18.0681 160.194 19.4382 161.59 19.4382C161.59 19.668 162.435 19.8006 164.098 19.8272H184.308C185.971 20.057 186.826 20.8702 186.826 22.2757V24.6978C186.587 26.2977 185.742 27.111 184.281 27.111H164.071C161.315 27.111 159.891 27.7651 159.891 29.0999C159.689 29.0999 159.551 29.9131 159.487 31.5131V35.4025C159.487 38.0543 160.166 39.4245 161.554 39.4245C161.554 39.6189 162.399 39.7515 164.071 39.8134H184.281C185.944 40.0432 186.789 40.8565 186.789 42.262V44.5161C186.55 46.116 185.705 46.9293 184.244 46.9293H160.038C158.439 46.9293 157.456 45.7183 157.116 43.3051C156.883 42.9203 156.564 42.5895 156.183 42.336C155.802 42.0825 155.368 41.9124 154.912 41.8377C153.074 41.5814 152.156 40.7239 152.156 39.2919V7.78766C152.156 6.24958 153.414 5.30377 155.885 4.94134C156.285 4.71549 156.628 4.4087 156.891 4.04234C157.154 3.67597 157.332 3.25879 157.41 2.81983C157.717 1.05191 158.599 0.167954 160.056 0.167954L184.345 0Z"
-                  fill="#D3D93C" />
-                <path
-                  d="M216.874 0.159175C218.473 0.159175 219.456 1.37017 219.796 3.78338C220.033 4.16507 220.353 4.49351 220.733 4.74659C221.113 4.99967 221.545 5.17157 222 5.25078C223.838 5.51596 224.756 6.36457 224.756 7.79658V19.4383C224.756 20.8791 223.571 21.8869 221.155 22.5056C220.985 22.6021 220.845 22.7408 220.75 22.9072C220.654 23.0736 220.607 23.2615 220.613 23.4514V23.5487C220.613 24.2382 221.633 24.8569 223.636 25.4138C224.286 25.9658 224.687 26.7391 224.756 27.5707V44.5869C224.517 46.1868 223.7 47 222.276 47H219.897C218.234 46.7702 217.416 45.957 217.416 44.5515V31.4601C217.416 28.8083 216.737 27.4381 215.34 27.4381C215.34 27.2082 214.495 27.0756 212.832 27.0491H202.075C199.319 27.0491 197.895 27.7033 197.895 29.038C197.693 29.038 197.555 29.8513 197.491 31.4513V44.5603C197.252 46.1603 196.434 46.9736 195.011 46.9736H192.631C190.968 46.7437 190.151 45.9305 190.151 44.525V2.48399C190.39 0.884024 191.207 0.0708008 192.631 0.0708008L216.874 0.159175ZM197.491 15.5489C197.491 18.2008 198.171 19.5709 199.558 19.5709C199.558 19.8007 200.403 19.9333 202.075 19.9598H212.869C215.625 19.9598 217.049 19.3057 217.049 17.9709C217.251 17.9709 217.389 17.1577 217.453 15.5577V11.6683C217.453 9.01644 216.773 7.64632 215.377 7.64632C215.377 7.45185 214.532 7.31925 212.869 7.25738H202.075C199.319 7.25738 197.895 7.94684 197.895 9.28162C197.693 9.28162 197.555 10.0683 197.491 11.6683V15.5489Z"
-                  fill="#D3D93C" />
-                <path
-                  d="M255.117 0.0974121C256.679 0.0974121 257.625 1.29963 257.965 3.72167C258.194 4.1049 258.507 4.43497 258.884 4.68855C259.26 4.94213 259.689 5.11299 260.142 5.18901C261.979 5.4542 262.898 6.3028 262.898 7.73482V39.3628C262.898 40.9009 261.676 41.8467 259.223 42.1738C258.819 42.4024 258.473 42.7144 258.209 43.0874C257.945 43.4604 257.771 43.885 257.698 44.3307C257.423 46.0986 256.578 46.9825 255.117 46.9825H236.652C235.09 46.9825 234.141 45.7744 233.804 43.3583C233.577 42.9739 233.264 42.6428 232.887 42.3891C232.511 42.1353 232.08 41.9652 231.627 41.8909C229.79 41.6258 228.871 40.7771 228.871 39.3451V7.78785C228.871 6.24977 230.093 5.30394 232.546 4.97687C232.95 4.75024 233.295 4.43843 233.556 4.06486C233.817 3.6913 233.987 3.26569 234.052 2.82002C234.319 1.0521 235.173 0.168144 236.634 0.168144L255.117 0.0974121ZM236.101 35.4557C236.101 38.137 236.781 39.4777 238.14 39.4777C238.14 39.7075 238.958 39.8402 240.584 39.902H251.176C253.932 39.902 255.255 39.2125 255.255 37.8777C255.457 37.8777 255.595 37.0645 255.659 35.4646V11.5977C255.659 8.94583 254.979 7.57571 253.619 7.57571C253.619 7.34588 252.802 7.2133 251.176 7.15143H240.584C237.828 7.15143 236.505 7.8409 236.505 9.17567C236.303 9.17567 236.165 9.98889 236.101 11.5889V35.4557Z"
-                  fill="#D3D93C" />
-                <path
-                  d="M310.19 0.132684C311.788 0.132684 312.771 1.34368 313.111 3.75689C313.349 4.13858 313.668 4.46697 314.048 4.72005C314.429 4.97313 314.861 5.14502 315.316 5.22423C317.153 5.48942 318.072 6.33802 318.072 7.77003V39.3273C318.072 40.8654 316.813 41.8113 314.342 42.1737C313.941 42.3977 313.597 42.7039 313.333 43.0706C313.07 43.4373 312.893 43.8554 312.817 44.2951C312.511 46.0631 311.629 46.947 310.171 46.947H285.947C284.284 46.7172 283.466 45.904 283.466 44.4985V2.48399C283.705 0.884024 284.523 0.0708008 285.947 0.0708008L310.19 0.132684ZM290.806 35.491C290.806 38.1428 291.486 39.513 292.873 39.513C292.873 39.7074 293.718 39.84 295.39 39.9019H306.184C308.94 39.9019 310.364 39.2124 310.364 37.8776C310.566 37.8776 310.704 37.0909 310.768 35.491V11.6241C310.768 8.97225 310.089 7.60208 308.692 7.60208C308.692 7.40761 307.847 7.27501 306.184 7.21314H295.39C292.634 7.21314 291.21 7.90266 291.21 9.23743C291.008 9.23743 290.871 10.0242 290.806 11.6241V35.491Z"
-                  fill="#D3D93C" />
-                <path
-                  d="M326.423 0.0972914C328.122 0.32712 328.967 1.14038 328.967 2.54587V44.5603C328.729 46.1603 327.883 46.9736 326.423 46.9736H324.08C322.381 46.7437 321.536 45.9216 321.536 44.525V2.48399C321.774 0.884024 322.62 0.0708008 324.08 0.0708008L326.423 0.0972914Z"
-                  fill="#D3D93C" />
-                <path
-                  d="M364.501 0.0266113C366.164 0.25644 367.009 1.0697 367.009 2.47519V4.72927C366.77 6.32923 365.925 7.14251 364.464 7.14251H344.291C341.535 7.14251 340.111 7.83198 340.111 9.16675C339.936 9.16675 339.808 9.82088 339.707 11.1557C339.707 14.6915 339.707 18.8019 339.844 23.4692C339.697 27.9685 339.697 32.1408 339.697 35.9242C339.697 38.0457 340.543 39.292 342.214 39.681C342.901 39.7603 343.59 39.8046 344.281 39.8135H355.076C357.831 39.8135 359.219 39.1241 359.219 37.7893C359.457 37.7893 359.595 37.0026 359.66 35.4026V31.5044C359.66 28.8525 358.943 27.4824 357.556 27.4824C357.556 27.2525 356.738 27.1199 355.076 27.0934H345.678C343.914 26.7929 343.032 25.9443 343.032 24.5476V22.4084C343.302 20.7112 344.183 19.8626 345.678 19.8626H364.501C366.164 20.0924 367.018 20.9057 367.018 22.3112V39.3009C367.018 40.839 365.759 41.7848 363.288 42.1472C362.888 42.3712 362.543 42.6774 362.28 43.0441C362.016 43.4108 361.84 43.829 361.763 44.2687C361.457 46.0366 360.575 46.9206 359.118 46.9206H340.285C338.687 46.9206 337.704 45.7095 337.364 43.2963C337.13 42.9116 336.812 42.5808 336.431 42.3273C336.05 42.0738 335.616 41.9037 335.159 41.829C333.322 41.5726 332.403 40.7152 332.403 39.2832V7.78778C332.403 6.2497 333.662 5.30389 336.133 4.94146C336.532 4.71561 336.875 4.40882 337.139 4.04246C337.402 3.67609 337.579 3.25891 337.658 2.81995C337.964 1.05203 338.846 0.168075 340.304 0.168075L364.501 0.0266113Z"
-                  fill="#D3D93C" />
-                <path
-                  d="M375.322 0.0972914C377.022 0.32712 377.867 1.14038 377.867 2.54587V44.5603C377.628 46.1603 376.783 46.9736 375.322 46.9736H372.952C371.252 46.7437 370.407 45.9216 370.407 44.525V2.48399C370.646 0.884024 371.491 0.0708008 372.952 0.0708008L375.322 0.0972914Z"
-                  fill="#D3D93C" />
-                <path
-                  d="M413.419 0.132684C415.081 0.362513 415.899 1.17572 415.899 2.58121V4.83529C415.66 6.43525 414.842 7.24853 413.419 7.24853H406.758C404.002 7.24853 402.579 7.93799 402.579 9.27277C402.376 9.27277 402.239 10.0595 402.174 11.6595V44.5869C401.935 46.1868 401.118 47 399.694 47H397.315C395.652 46.7702 394.834 45.957 394.834 44.5515V11.6241C394.834 8.97225 394.155 7.60208 392.758 7.60208C392.758 7.40761 391.913 7.27501 390.25 7.21313H383.82C382.157 6.98331 381.339 6.1701 381.339 4.76461V2.48399C381.578 0.884024 382.396 0.0708008 383.82 0.0708008L413.419 0.132684Z"
-                  fill="#D3D93C" />
-                <path
-                  d="M446.049 0.158936C447.647 0.158936 448.63 1.36994 448.97 3.78314C449.205 4.16672 449.524 4.49662 449.905 4.74997C450.285 5.00332 450.719 5.17411 451.175 5.25054C453.012 5.51572 453.931 6.36433 453.931 7.79634V44.5866C453.692 46.1866 452.847 46.9998 451.386 46.9998H449.016C447.353 46.77 446.536 45.9568 446.536 44.5513V31.5836C446.536 28.9317 445.819 27.5616 444.432 27.5616C444.432 27.3318 443.614 27.1992 441.952 27.1727H431.213C428.457 27.1727 427.033 27.8268 427.033 29.1616C426.831 29.1616 426.693 29.9748 426.629 31.5748V44.5601C426.39 46.16 425.572 46.9733 424.148 46.9733H421.769C420.106 46.7435 419.289 45.9302 419.289 44.5247V7.78749C419.289 6.2494 420.547 5.3036 423.018 4.94117C423.417 4.71532 423.76 4.40853 424.024 4.04216C424.287 3.6758 424.464 3.25861 424.543 2.81966C424.849 1.05174 425.731 0.167784 427.189 0.167784L446.049 0.158936ZM426.665 15.5487C426.665 18.2005 427.345 19.5707 428.732 19.5707C428.732 19.8005 429.577 19.9331 431.24 19.9596H442.034C444.79 19.9596 446.177 19.3055 446.177 17.9707C446.416 17.9707 446.554 17.1574 446.618 15.5575V11.6681C446.618 9.0162 445.911 7.64608 444.515 7.64608C444.515 7.45161 443.697 7.31901 442.034 7.25714H431.249C428.493 7.25714 427.069 7.9466 427.069 9.28138C426.867 9.28138 426.73 10.0681 426.665 11.6681V15.5487Z"
-                  fill="#D3D93C" />
-                <path
-                  d="M462.227 0.0266113C463.89 0.25644 464.707 1.0697 464.707 2.47519V35.4114C464.707 38.0633 465.387 39.4334 466.774 39.4334C466.774 39.6279 467.619 39.7605 469.282 39.8224H489.492C491.155 40.0522 492 40.8655 492 42.271V44.525C491.761 46.125 490.916 46.9382 489.456 46.9382H465.212C463.614 46.9382 462.668 45.7272 462.328 43.314C462.094 42.9293 461.776 42.5985 461.395 42.345C461.014 42.0915 460.58 41.9214 460.123 41.8467C458.286 41.5903 457.367 40.7329 457.367 39.3009V2.48404C457.606 0.884076 458.424 0.0708523 459.847 0.0708523L462.227 0.0266113Z"
-                  fill="#D3D93C" />
-              </svg>
+              <h1 class="banner__text-2">Potrero digital</h1>
               <div class="banner__line"></div>
               <a class="banner__link" href="">Conoce más</a>
             </div>
@@ -194,7 +159,7 @@
               fill="#50535C" />
           </svg>
           <h3 class="services__card-text">diseño, programación y desarrollo de videojuegos</h3>
-          <div class="line"></div>
+          <div class="cards__line cards__line-1"></div>
           <p class="services__card-p">
             Desarrollo de Videojuegos.<br>
             Consultoría de Arte y Diseño.<br>
@@ -210,7 +175,7 @@
           </svg>
           <h3 class="services__card-text">fotografía de producto
             digitalización de catálogo</h3>
-            <div class="line"></div>
+          <div class="cards__line cards__line-2"></div>
           <p class="services__card-p">
             Velocidad.<br>
             Simplicidad.<br>
@@ -232,7 +197,7 @@
           </svg>
           <h3 class="services__card-text">comercio
             electrónico</h3>
-            <div class="line"></div>
+          <div class="cards__line cards__line-3"></div>
           <p class="services__card-p">Análisis de Mercado.<br>
             Diagnóstico de la Cuenta.<br>
             Armado de Publicaciones/Catálogo.<br>
@@ -250,7 +215,7 @@
           </svg>
           <h3 class="services__card-text">marketing
             digital</h3>
-            <div class="line"></div>
+          <div class="cards__line cards__line-4"></div>
           <p class="services__card-p">
             Community Manager.<br>
             Posicionamiento SEO.<br>
@@ -287,7 +252,7 @@
           </svg>
           <h3 class="services__card-text">desarrollo
             tecnológico</h3>
-            <div class="line"></div>
+          <div class="cards__line cards__line-5"></div>
           <p class="services__card-p">
 
             Testing QA.<br>
@@ -310,7 +275,7 @@
           </svg>
           <h3 class="services__card-text">diseño y programación
             de páginas web</h3>
-            <div class="line"></div>
+          <div class="cards__line cards__line-6"></div>
           <p class="services__card-p">
             Sitios Web.<br>
             Tiendas Online.<br>
@@ -363,7 +328,7 @@
           <p class="talent__card-p">Alumnos graduados de Potrero Digital</p>
         </div>
         <div class="talent__card show-boxes ocultar">
-          <h2 class="talent__card-text contador-cantidad" data-cantidad-total="1700">0</h2>
+          <h2 class="talent__card-text contador-cantidad" data-cantidad-total="1300">0</h2>
           <p class="talent__card-p">Graduados empleados</p>
         </div>
       </div>
@@ -378,14 +343,32 @@
       <div class="clients__slide">
         <div class="glider-contain">
           <div class="glider">
-            <div class="slides"><img src="Public/images/clients/Compromiso-Digital-aComunidad.webp" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/argencon.png" alt=""></div>
             <div class="slides"><img src="Public/images/clients/Compromiso-Digital-Camuzzi.webp" alt=""></div>
-            <div class="slides"><img src="Public/images/clients/Compromiso-Digital-ferrazzi.webp" alt=""></div>
-            <div class="slides"><img src="Public/images/clients/Compromiso-Digital-Identia.webp" alt=""></div>
-            <div class="slides"><img src="Public/images/clients/Compromiso-Digital-logo-proa.webp" alt=""></div>
-            <div class="slides"><img src="Public/images/clients/Compromiso-Digital-logoSiliconglove.webp" alt=""></div>
-            <div class="slides"><img src="Public/images/clients/Compromiso-Digital-NutriVirtual.webp" alt=""></div>
-            <div class="slides"><img src="Public/images/clients/Compromiso-Digital-vulcano.webp" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/sms sudamérica.png" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/cromosol.png" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/arbusta.jfif" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/vulcano.png" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/limpiolux.jfif" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/gastronovo.png" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/ferrazzi.jfif" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/conciencia.jfif" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/andalhue.png" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/aurelia.png" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/peugeot warnes.jfif" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/mayma.png" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/la esquina del neumatico.png" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/abclogo.png" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/cacho suspension.png" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/importbaires.png" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/la nazarena.png" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/proa distribuciones.jfif" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/il cavallino.png" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/ruta 40.jfif" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/suspensión carlitos.png" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/voy con vos.jfif" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/asosiacion pilares.png" alt=""></div>
+            <div class="slides"><img src="Public/images/clients/mensajeros de la paz.png" alt=""></div>
           </div>
           <button aria-label="Previous" class="glider-prev"><i class="slide__icon fa-solid fa-angle-left"></i></button>
           <button aria-label="Next" class="glider-next"><i class="slide__icon fa-solid fa-angle-right"></i></button>
@@ -394,7 +377,81 @@
       </div>
     </section>
     <section class="contact" id="contact">
+      <div class="contact__description">
+        <h2 class="contact__title">contacto</h2>
+        <div class="contact__line"></div>
+        <h3 class="contact__text">Si querés gestionar tu
+          negocio de manera más
+          efectiva, no dudes en
+          ponerte en contacto.
+        </h3>
+        <ul class="contact__list">
+          <li class="contact__list-li">(+54)113566 9939</li>
+          <li class="contact__list-li">compromisodigital@compromiso.org</li>
+          <li class="contact__list-li">Esmeralda 945, CABA, Argentina</li>
+          <li class="contact__list-li">Lunes a viernes de 9 a 18 h.</li>
+        </ul>
+      </div>
 
+      <div class="form">
+        <h2 class="form__title">Envíanos un mensaje</h2>
+        <form action="https://formspree.io/f/mnqwpkyp" method="POST" id="form">
+          <div class="form-group">
+            <div class="form__item">
+              <label for="name">Nombre</label>
+              <input id="name" type="text" placeholder="Tu nombre" name="nombre">
+            </div>
+            <div class="form__item">
+              <label for="phone">Teléfono</label>
+              <input id="phone" type="number" placeholder="Tu telefono" name="telefono">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form__item">
+              <label for="business">Empresa</label>
+              <input id="business" type="text" placeholder="El nombre de tu empresa" name="empresa">
+            </div>
+            <div class="form__item">
+              <label for="email">email</label>
+              <input id="email" type="mail" placeholder="Tu email" name="email">
+            </div>
+          </div>
+          <div class="form-group2">
+            <div class="form__item">
+              <label for="search_talents">Buscar talentos</label>
+              <select name="talentos">
+                <option value="0" selected>Seleccionar</option>
+                <option value="CLOUD PRACTITIONER AWS">CLOUD PRACTITIONER AWS</option>
+                <option value="PROGRAMADOR FULL STACK">PROGRAMADOR FULL STACK</option>
+                <option value="ASISTENTES DE VENTAS DE E-COMMERCE">ASISTENTES DE VENTAS DE E-COMMERCE</option>
+                <option value="COMMUNITY MANAGER">COMMUNITY MANAGER</option>
+                <option value="ANALISTA DE MARKETING / PAID MEDIA">ANALISTA DE MARKETING / PAID MEDIA</option>
+                <option value="ASISTENTE DE ANIMACION DE VIDEO">ASISTENTE DE ANIMACION DE VIDEO</option>
+                <option value="ASISTENTE DE DESARROLLO DE VIDEOJUEGOS">ASISTENTE DE DESARROLLO DE VIDEOJUEGOS</option>
+              </select>
+            </div>
+            <div class="form__item">
+              <label for="search_services">Contratar servicios</label>
+              <select name="servicios">
+                <option value="0" selected>Seleccionar</option>
+                <option value="Desarrollo de videojuegos">Desarrollo de videojuegos</option>
+                <option value="Fotografia de productos">Fotografia de productos</option>
+                <option value="Comercio electronico">Comercio electronico</option>
+                <option value="Marketing digital">Marketing digital</option>
+                <option value="Desarrollo tecnologico">Desarrollo tecnologico</option>
+                <option value="Desarrollo web">Desarrollo web</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form__item">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="4" cols="50" name="mensaje"></textarea>
+            </div>
+          </div>
+          <input type="submit" value="Enviar mensaje">
+        </form>
+      </div>
     </section>
 
   </main>
@@ -417,6 +474,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
+  <script src="Public/js/formulario.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
