@@ -732,6 +732,10 @@ html {
     justify-content: center;    
 }
 
+#contact:target{
+    padding-top: 10%;
+}
+
 .contact__description{
     width: 45%;
     display: flex;
