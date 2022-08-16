@@ -568,6 +568,7 @@ html {
         width: 89px;
         height: 89px;
     }
+
     
     
     .blue__text {
@@ -590,7 +591,13 @@ html {
         border-radius: 5px;
         text-decoration: none;
         color: var(--pimaryGray);
-        ;
+        margin: 15px;
+    }
+
+    .button__container{
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
     }
     
     /**********************/
