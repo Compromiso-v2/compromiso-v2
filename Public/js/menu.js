@@ -21,7 +21,6 @@ boton.onclick = function () {
 }
 
 for (let i = 0; i < link.length; i++) {
-  const element = link[i];
   link[i].onclick = function () {
     menu.classList.remove("header__navigation--active")
     menu.classList.add("header__navigation--disabled")

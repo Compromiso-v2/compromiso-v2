@@ -2,8 +2,8 @@ const form = document.querySelector('#form');
 
 const selected = document.getElementById('option');
 
-const talents = document.getElementById('search_talents');
-const services = document.getElementById('search_services');
+const talents = document.getElementById('talentos');
+const services = document.getElementById('servicios');
 
 form.addEventListener('submit', handlesubmit)
 
@@ -27,17 +27,28 @@ async function handlesubmit(event) {
 }
 
 
-selected.addEventListener('change', (event) => {
-    if(event.target.value == 'talentos'){
-        services.classList.add("form--disabled")
-        talents.classList.remove("form--disabled")
-    }
-    else if(event.target.value == '0'){
-        services.classList.add("form--disabled")
-        talents.classList.add("form--disabled")
+talents.addEventListener('change', (event) => {
+    if(event.target.value != '0'){
+        services.setAttribute('disabled', '');
     }
     else{
-        talents.classList.add("form--disabled")
-        services.classList.remove("form--disabled")
+        services.removeAttribute('disabled', '');
     }
 });
+services.addEventListener('change', (event) => {
+    if(event.target.value != '0'){
+        talents.setAttribute('disabled', '');
+    }
+    else{
+        talents.removeAttribute('disabled', '');
+    }
+});
+
+
+
+/* button.setAttribute('disabled', '');
+
+else if(event.target.value == '0'){
+    services.classList.add("form--disabled")
+    talents.classList.add("form--disabled")
+} */
