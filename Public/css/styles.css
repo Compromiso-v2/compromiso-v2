@@ -1002,6 +1002,11 @@ html {
     .talents__description {
         width: 100%;
         margin-bottom: 40px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
     
     .talents__image {
@@ -1406,6 +1411,13 @@ html {
         height: 89px;
     }
     
+    .button__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .button__container a{
+        margin-top: 20px;
+    }
     
     .blue__text {
         color: var(--primaryBlue);
@@ -1588,12 +1600,14 @@ html {
         font-weight: 600;
         font-size: 45px;
         color: white;
+        text-align: center;
     }
     
     .contact__line{
         width: 50%;
         border: 1px solid var(--primaryYellow);
         margin: 5px 0 25px 0;
+        align-self: center;
     }
     
     .contact__text{
@@ -1611,7 +1625,20 @@ html {
         list-style: none;
         color: white;
     }
-    
+        
+    .contact__list{
+        list-style: none;
+        padding: 0;
+        color: white;
+        font-family: "Barlow_regular";
+    }
+    .contact__list li i{
+        padding:0 10px 0px 0px;
+    }
+    .contact__list-item{
+        list-style: none;
+        color: white;
+    }
     
     .form{
         width: 100%;
@@ -1629,6 +1656,7 @@ html {
         font-family: "Barlow_condensed_semibold";
         font-size: 40px;
         color: white;
+        text-align: center;
     }
     
     .form__item{
@@ -1710,5 +1738,27 @@ html {
     .footer__list-item a i {
         font-size: 30px;
         color: white;
+    }
+}
+
+@media(max-width:500px){
+    .form-group{
+        flex-direction: column;
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .footer__list{
+        padding: 0;
+    }
+
+    .footer__social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
