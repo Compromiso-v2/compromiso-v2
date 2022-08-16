@@ -73,6 +73,13 @@ html {
     color: var(--primaryBlue);
 }
 
+.linkedin path{
+    stroke: white;
+}
+
+.linkedin .linkedin__font{
+    fill:white;
+}
 
 /*Banner*/
 
