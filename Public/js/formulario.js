@@ -14,11 +14,11 @@ async function handlesubmit(event) {
     const response = await fetch(this.action, {
         method: this.method,
         body: form,
-        headers : {
-            'Accept' : 'application/json'
+        headers: {
+            'Accept': 'application/json'
         }
     })
-    if(response.ok){
+    if (response.ok) {
         this.reset()
         alert("Formulario enviado!")
         gtag('event', 'form send')
@@ -26,20 +26,22 @@ async function handlesubmit(event) {
 
 }
 
-
 talents.addEventListener('change', (event) => {
-    if(event.target.value != '0'){
+    if (event.target.value != '0') {
         services.setAttribute('disabled', '');
+        console.log(event.target.value)
     }
-    else{
+    else {
         services.removeAttribute('disabled', '');
     }
 });
+
 services.addEventListener('change', (event) => {
-    if(event.target.value != '0'){
+    if (event.target.value != '0') {
         talents.setAttribute('disabled', '');
+        console.log(event.target.value)
     }
-    else{
+    else {
         talents.removeAttribute('disabled', '');
     }
 });
