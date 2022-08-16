@@ -38,11 +38,13 @@
 </head>
 
 <body>
-
   <header class="" id="header">
     <figure>
       <img id="logo" src="Public/images/compromiso-digital-logo-2.svg" alt="">
     </figure>
+    <button class="header_icono" type="button" name="button">
+      <i class="icono fas fa-bars"></i>
+    </button>
     <nav class="header__navigation">
       <ul>
         <li><a class="navigation__link" id="link2" href="#talents">Talentos</a> </li>
@@ -53,7 +55,6 @@
       <a class="navigation__contact" href="#contact">Contacto</a>
     </nav>
   </header>
-
   <main>
     <section class="banner">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -390,10 +391,10 @@
           ponerte en contacto.
         </h3>
         <ul class="contact__list">
-          <li class="contact__list-li">(+54)113566 9939</li>
-          <li class="contact__list-li">compromisodigital@compromiso.org</li>
-          <li class="contact__list-li">Esmeralda 945, CABA, Argentina</li>
-          <li class="contact__list-li">Lunes a viernes de 9 a 18 h.</li>
+          <li class="contact__list-li"><i class="fa-brands fa-whatsapp"></i>(+54)113566 9939</li>
+          <li class="contact__list-li"><i class="fa-regular fa-envelope"></i>compromisodigital@compromiso.org</li>
+          <li class="contact__list-li"><i class="fa-solid fa-location-dot"></i>Esmeralda 945, CABA, Argentina</li>
+          <li class="contact__list-li"><i class="fa-solid fa-calendar-days"></i>Lunes a viernes de 9 a 18 h.</li>
         </ul>
       </div>
 
@@ -459,7 +460,6 @@
     </section>
 
   </main>
-
   <footer>
     <img src="Public/images/compromiso-digital-logo-2.svg" alt="">
     <div class="footer__social">
@@ -470,8 +470,8 @@
       </ul>
       <span class="footer__social-text">Visita nuestras redes</span>
     </div>
-
   </footer>
+  <script src="Public/js/menu.js"></script>
   <script src="Public/js/glider/glider.js"></script>
   <script src="Public/js/slider.js"></script>
   <script src="Public/js/header.js"></script>
@@ -487,5 +487,4 @@
     crossorigin="anonymous"></script>
   <script src="Public/js/contador.js"></script>
 </body>
-
 </html>
