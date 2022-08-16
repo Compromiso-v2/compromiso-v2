@@ -1,7 +1,4 @@
 const form = document.querySelector('#form');
-
-const selected = document.getElementById('option');
-
 const talents = document.getElementById('talentos');
 const services = document.getElementById('servicios');
 
