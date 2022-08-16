@@ -31,7 +31,12 @@ selected.addEventListener('change', (event) => {
     if(event.target.value == 'talentos'){
         services.classList.add("form--disabled")
         talents.classList.remove("form--disabled")
-    }else{
+    }
+    else if(event.target.value == '0'){
+        services.classList.add("form--disabled")
+        talents.classList.add("form--disabled")
+    }
+    else{
         talents.classList.add("form--disabled")
         services.classList.remove("form--disabled")
     }
