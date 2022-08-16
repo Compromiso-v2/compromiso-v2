@@ -26,7 +26,6 @@ async function handlesubmit(event) {
 talents.addEventListener('change', (event) => {
     if (event.target.value != '0') {
         services.setAttribute('disabled', '');
-        console.log(event.target.value)
     }
     else {
         services.removeAttribute('disabled', '');
@@ -36,7 +35,6 @@ talents.addEventListener('change', (event) => {
 services.addEventListener('change', (event) => {
     if (event.target.value != '0') {
         talents.setAttribute('disabled', '');
-        console.log(event.target.value)
     }
     else {
         talents.removeAttribute('disabled', '');
