@@ -594,6 +594,10 @@ html {
         margin: 15px;
     }
 
+    .link__us{
+        font-weight: 600;
+    }
+
     .button__container{
         justify-content: center;
         display: flex;
