@@ -43,12 +43,3 @@ services.addEventListener('change', (event) => {
         talents.removeAttribute('disabled', '');
     }
 });
-
-
-
-/* button.setAttribute('disabled', '');
-
-else if(event.target.value == '0'){
-    services.classList.add("form--disabled")
-    talents.classList.add("form--disabled")
-} */
