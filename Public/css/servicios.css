@@ -1,33 +1,32 @@
-
 * {
-	margin : 0;
-	padding : 0;
-	box-sizing : border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'Barlow_condensed_regular';
-    src: url('./fonts/BarlowCondensed/BarlowCondensed-Regular.ttf');
+	font-family: 'Barlow_condensed_regular';
+	src: url('./fonts/BarlowCondensed/BarlowCondensed-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'Barlow_condensed_medium';
-    src: url('./fonts/BarlowCondensed/BarlowCondensed-Medium.ttf');
+	font-family: 'Barlow_condensed_medium';
+	src: url('./fonts/BarlowCondensed/BarlowCondensed-Medium.ttf');
 }
 
 @font-face {
-    font-family: 'Barlow_condensed_semibold';
-    src: url('./fonts/BarlowCondensed/BarlowCondensed-SemiBold.ttf');
+	font-family: 'Barlow_condensed_semibold';
+	src: url('./fonts/BarlowCondensed/BarlowCondensed-SemiBold.ttf');
 }
 
 @font-face {
-    font-family: 'Barlow_regular';
-    src: url('./fonts/Barlow/Barlow-Regular.ttf');
+	font-family: 'Barlow_regular';
+	src: url('./fonts/Barlow/Barlow-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'Barlow_semibold';
-    src: url('./fonts/Barlow/Barlow-SemiBold.ttf');
+	font-family: 'Barlow_semibold';
+	src: url('./fonts/Barlow/Barlow-SemiBold.ttf');
 }
 
 
@@ -37,7 +36,7 @@ body {
 
 /* banner  */
 
-@media(min-width:1000px){
+@media(min-width:1000px) {
 	.banner-section {
 		display: grid;
 		grid-template-columns: 1fr;
@@ -47,20 +46,20 @@ body {
 		align-content: center;
 		justify-content: center;
 	}
-	
-	
+
+
 	.banner-section__image {
 		grid-area: 1 / 1 / 3 / 2;
 	}
-	
+
 	.banner-section__icon {
 		grid-area: 1 / 1 / 2 / 2;
 	}
-	
+
 	.banner-section__text {
 		grid-area: 1 / 1 / 2 / 2;
 	}
-	
+
 	.banner-section_image {
 		display: grid;
 		min-width: 350px;
@@ -68,32 +67,32 @@ body {
 		height: 100%;
 		object-fit: cover;
 	}
-	
+
 	.banner-section__text {
 		display: grid;
 		align-items: center;
 		margin-left: 15px;
 		margin-right: 15px;
 	}
-	
+
 	.banner-section__text__span {
 		/*margin-top: 0.5em;*/
 		margin-top: 20px;
 	}
-	
+
 	.banner-section__image__span {
 		text-align: center;
 		margin-top: 14%;
-		
+
 	}
-	
+
 	/*
 	.banner-section .banner-section__text_icon {
 		text-align: center;
 		margin-bottom: 40px;
 	}
 	*/
-	
+
 	.banner-section .banner-section__text h1 {
 		font-family: 'Barlow_condensed_regular';
 		font-weight: 600;
@@ -103,32 +102,32 @@ body {
 		letter-spacing: -0.02em;
 		text-transform: uppercase;
 	}
-	
+
 	.banner-section .banner-section__text_h1 {
 		color: #FFFFFF;
 		margin-bottom: 0;
 	}
-	
+
 	.banner-section .banner-section__text_h2 {
 		color: #D3D93C;
 	}
-	
-	
+
+
 	.icons-section {
 		display: flex;
 		justify-content: center;
 		padding-top: 100px;
 	}
-	
+
 	.icons-section__box {
 		padding: 20px;
 	}
-	
+
 	.icons-section__box .icons-section__box_text {
 		width: 130px;
-		
+
 	}
-	
+
 	.icons-section__box .icons-section__box_text p {
 		font-family: 'Barlow_regular';
 		font-weight: 600;
@@ -137,50 +136,50 @@ body {
 		text-align: center;
 		letter-spacing: 0.05em;
 		margin-bottom: 0;
-		
+
 	}
-	
+
 	.icons-section__box .icons-section__box_text-fotografia {
 		color: #503AA6;
 	}
-	
+
 	.icons-section__box .icons-section__box_text-comercio {
 		color: #929629;
 	}
-	
+
 	.icons-section__box .icons-section__box_text-marketing {
 		color: #D96B2B;
 	}
-	
+
 	.icons-section__box .icons-section__box_text-desarrollo {
-		color: #284694; 
-	} 
-	
-	.icons-section__box .icons-section__box_text-web {
-		color: #28BFB2; 
+		color: #284694;
 	}
-	
+
+	.icons-section__box .icons-section__box_text-web {
+		color: #28BFB2;
+	}
+
 	.icons-section__box .icons-section__box_icon {
 		text-align: center;
 		margin-bottom: 30px;
 	}
-	
-	
+
+
 	.text-section {
-		padding: 150px;			
-	
+		padding: 150px;
+
 	}
-	
+
 	.text-section__box .text-section__box_text {
 		padding: 20px;
 	}
-	
+
 	.icon-fotografia img {
-		color : #D96B2B;
+		color: #D96B2B;
 	}
-	
+
 	.text-section__box .text-section__box_title h1 {
-		
+
 		font-family: 'Barlow_condensed_regular';
 		font-weight: 600;
 		font-size: 30px;
@@ -190,25 +189,25 @@ body {
 		text-transform: uppercase;
 		color: #1EC39B;
 	}
-	
-	
+
+
 	.text-section__box #title-tecnologia h1 {
 		color: #284694;
 	}
-	
+
 	.text-section__box #title-marketing h1 {
 		color: #D96B2B
 	}
-	
+
 	.text-section__box #title-comercio h1 {
 		color: #929629;
 	}
-	
+
 	.text-section__box #title-fotografia h1 {
 		color: #503AA6;
 		letter-spacing: 0;
 	}
-	
+
 	.text-section__box .text-section__box_text p {
 		font-family: 'Barlow_condensed_regular';
 		font-weight: 400;
@@ -219,29 +218,29 @@ body {
 		margin-bottom: 0;
 		color: #50535C;
 	}
-	
-	
+
+
 	.cart-section {
 		display: flex;
 		justify-content: center;
 		padding-bottom: 100px;
 	}
-	
-	
+
+
 	.cart-section .cart-section__cart {
-	
+
 		text-align: center;
 		box-sizing: border-box;
 		width: 290px;
 		height: 290px;
 		background: #FFFFFF;
 		border: 1px solid #50535C;
-		border-radius:8px;
+		border-radius: 8px;
 		margin: 15px;
 		padding: 20px;
 	}
-	
-	
+
+
 	.cart-section .cart-section__cart p {
 		font-family: 'Barlow_regular';
 		font-weight: 500;
@@ -249,10 +248,10 @@ body {
 		line-height: 19px;
 		letter-spacing: -0.02em;
 		color: #50535C;
-		
+
 	}
-	
-	
+
+
 	.cart-section .cart-section__cart h2 {
 		font-family: 'Barlow_condensed_regular';
 		font-weight: 600;
@@ -264,138 +263,138 @@ body {
 		text-transform: uppercase;
 		margin-bottom: 25px;
 	}
-	
-	
+
+
 	.cart-section .cart-section__cart_svg {
 		margin-top: -70px;
 	}
-	
+
 	/* hover card */
-	
+
 	/* -- fotografia ---*/
 	.cart-section .cart-fotografia:hover {
 		border: 1px solid #503AA6;
 		box-shadow: 4px 4px 0px #503AA6;
 		transition: transform .05s;
-	
+
 	}
-	
+
 	.cart-section .cart-fotografia:hover .svg-fotografia {
 		fill: #503AA6;
 	}
-	
+
 	.cart-section .cart-fotografia:hover p {
 		color: #503AA6;
 	}
-	
+
 	.cart-section .cart-fotografia:hover h2 {
 		color: #503AA6;
 	}
-	
-	
+
+
 	/* -- marketing ---*/
 	.cart-section .cart-marketing:hover {
 		border: 1px solid #D96B2B;
 		box-shadow: 4px 4px 0px #D96B2B;
 		transition: transform .05s;
-	
+
 	}
-	
+
 	.cart-section .cart-marketing:hover .svg-marketing {
 		fill: #D96B2B;
 	}
-	
+
 	.cart-section .cart-marketing:hover p {
 		color: #D96B2B;
 	}
-	
+
 	.cart-section .cart-marketing:hover h2 {
 		color: #D96B2B;
 	}
-	
+
 	/* -- desarrollo web --*/
 	.cart-section .cart-web:hover {
 		border: 1px solid #28BFB2;
 		box-shadow: 4px 4px 0px #28BFB2;
 		transition: transform .05s;
-	
+
 	}
-	
+
 	.cart-section .cart-web:hover .svg-web {
 		fill: #28BFB2;
 	}
-	
+
 	.cart-section .cart-web:hover p {
 		color: #28BFB2;
 	}
-	
+
 	.cart-section .cart-web:hover h2 {
 		color: #28BFB2;
 	}
-	
+
 	/* -- desarrollo tecnologico -- */
 	.cart-section .cart-desarrollo:hover {
 		border: 1px solid #284694;
 		box-shadow: 4px 4px 0px #284694;
 		transition: transform .05s;
-	
+
 	}
-	
+
 	.cart-section .cart-desarrollo:hover .svg-desarrollo {
 		fill: #284694;
 	}
-	
+
 	.cart-section .cart-desarrollo:hover p {
 		color: #284694;
 	}
-	
+
 	.cart-section .cart-desarrollo:hover h2 {
 		color: #284694;
 	}
-	
+
 	/* -- comercio electronico*/
 	.cart-section .cart-comercio:hover {
 		border: 1px solid #929629;
 		box-shadow: 4px 4px 0px #929629;
 		transition: transform .05s;
-	
+
 	}
-	
+
 	.cart-section .cart-comercio:hover .svg-comercio {
 		fill: #929629;
 	}
-	
+
 	.cart-section .cart-comercio:hover p {
 		color: #929629;
 	}
-	
+
 	.cart-section .cart-comercio:hover h2 {
 		color: #929629;
 	}
-	
-	
+
+
 	/* -- videojuegos -- */
 	.cart-section .cart-videojuego:hover {
 		border: 1px solid #28BFB2;
 		box-shadow: 4px 4px 0px #28BFB2;
 		transition: transform .05s;
-	
+
 	}
-	
+
 	.cart-section .cart-videojuego:hover .svg-videojuego {
 		fill: #28BFB2;
 	}
-	
+
 	.cart-section .cart-videojuego:hover p {
 		color: #28BFB2;
 	}
-	
+
 	.cart-section .cart-videojuego:hover h2 {
 		color: #28BFB2;
 	}
 }
 
-@media(max-width:1000px){
+@media(max-width:1000px) {
 	.banner-section {
 		display: grid;
 		grid-template-columns: 1fr;
@@ -405,20 +404,20 @@ body {
 		align-content: center;
 		justify-content: center;
 	}
-	
-	
+
+
 	.banner-section__image {
 		grid-area: 1 / 1 / 3 / 2;
 	}
-	
+
 	.banner-section__icon {
 		grid-area: 1 / 1 / 2 / 2;
 	}
-	
+
 	.banner-section__text {
 		grid-area: 1 / 1 / 2 / 2;
 	}
-	
+
 	.banner-section_image {
 		display: grid;
 		min-width: 350px;
@@ -426,32 +425,32 @@ body {
 		height: 100%;
 		object-fit: cover;
 	}
-	
+
 	.banner-section__text {
 		display: grid;
 		align-items: center;
 		margin-left: 15px;
 		margin-right: 15px;
 	}
-	
+
 	.banner-section__text__span {
 		/*margin-top: 0.5em;*/
 		margin-top: 20px;
 	}
-	
+
 	.banner-section__image__span {
 		text-align: center;
 		margin-top: 14%;
-		
+
 	}
-	
+
 	/*
 	.banner-section .banner-section__text_icon {
 		text-align: center;
 		margin-bottom: 40px;
 	}
 	*/
-	
+
 	.banner-section .banner-section__text h1 {
 		font-family: 'Barlow_condensed_regular';
 		font-weight: 600;
@@ -461,33 +460,33 @@ body {
 		letter-spacing: -0.02em;
 		text-transform: uppercase;
 	}
-	
+
 	.banner-section .banner-section__text_h1 {
 		color: #FFFFFF;
 		margin-bottom: 0;
 	}
-	
+
 	.banner-section .banner-section__text_h2 {
 		color: #D3D93C;
 	}
-	
-	
+
+
 	.icons-section {
 		display: flex;
 		justify-content: center;
 		padding-top: 100px;
 		flex-wrap: wrap;
 	}
-	
+
 	.icons-section__box {
 		padding: 20px;
 	}
-	
+
 	.icons-section__box .icons-section__box_text {
 		width: 130px;
-		
+
 	}
-	
+
 	.icons-section__box .icons-section__box_text p {
 		font-family: 'Barlow_regular';
 		font-weight: 600;
@@ -496,50 +495,50 @@ body {
 		text-align: center;
 		letter-spacing: 0.05em;
 		margin-bottom: 0;
-		
+
 	}
-	
+
 	.icons-section__box .icons-section__box_text-fotografia {
 		color: #503AA6;
 	}
-	
+
 	.icons-section__box .icons-section__box_text-comercio {
 		color: #929629;
 	}
-	
+
 	.icons-section__box .icons-section__box_text-marketing {
 		color: #D96B2B;
 	}
-	
+
 	.icons-section__box .icons-section__box_text-desarrollo {
-		color: #284694; 
-	} 
-	
-	.icons-section__box .icons-section__box_text-web {
-		color: #28BFB2; 
+		color: #284694;
 	}
-	
+
+	.icons-section__box .icons-section__box_text-web {
+		color: #28BFB2;
+	}
+
 	.icons-section__box .icons-section__box_icon {
 		text-align: center;
 		margin-bottom: 30px;
 	}
-	
-	
+
+
 	.text-section {
-		padding: 10px;			
-	
+		padding: 10px;
+
 	}
-	
+
 	.text-section__box .text-section__box_text {
 		padding: 20px;
 	}
-	
+
 	.icon-fotografia img {
-		color : #D96B2B;
+		color: #D96B2B;
 	}
-	
+
 	.text-section__box .text-section__box_title h1 {
-		
+
 		font-family: 'Barlow_condensed_regular';
 		font-weight: 600;
 		font-size: 30px;
@@ -548,25 +547,25 @@ body {
 		text-transform: uppercase;
 		color: #1EC39B;
 	}
-	
-	
+
+
 	.text-section__box #title-tecnologia h1 {
 		color: #284694;
 	}
-	
+
 	.text-section__box #title-marketing h1 {
 		color: #D96B2B
 	}
-	
+
 	.text-section__box #title-comercio h1 {
 		color: #929629;
 	}
-	
+
 	.text-section__box #title-fotografia h1 {
 		color: #503AA6;
 		letter-spacing: 0;
 	}
-	
+
 	.text-section__box .text-section__box_text p {
 		font-family: 'Barlow_condensed_regular';
 		font-weight: 400;
@@ -577,184 +576,183 @@ body {
 		margin-bottom: 0;
 		color: #50535C;
 	}
-	
-	
+
+
 	.cart-section {
 		display: flex;
 		justify-content: center;
 		padding-bottom: 100px;
 		display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-bottom: 100px;
-    align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		padding-bottom: 100px;
+		align-items: center;
+	}
+
+
+.cart-section .cart-section__cart {
+
+	text-align: center;
+	box-sizing: border-box;
+	width: 290px;
+	height: 290px;
+	background: #FFFFFF;
+	border: 1px solid #50535C;
+	border-radius: 8px;
+	margin: 15px;
+	padding: 20px;
 }
-	}
-	
-	
-	.cart-section .cart-section__cart {
-	
-		text-align: center;
-		box-sizing: border-box;
-		width: 290px;
-		height: 290px;
-		background: #FFFFFF;
-		border: 1px solid #50535C;
-		border-radius:8px;
-		margin: 15px;
-		padding: 20px;
-	}
-	
-	
-	.cart-section .cart-section__cart p {
-		font-family: 'Barlow_regular';
-		font-weight: 500;
-		font-size: 16px;
-		line-height: 19px;
-		letter-spacing: -0.02em;
-		color: #50535C;
-		
-	}
-	
-	
-	.cart-section .cart-section__cart h2 {
-		font-family: 'Barlow_condensed_regular';
-		font-weight: 600;
-		font-size: 22px;
-		line-height: 19px;
-		text-align: center;
-		letter-spacing: -0.02em;
-		color: #50535C;
-		text-transform: uppercase;
-		margin-bottom: 25px;
-	}
-	
-	
-	.cart-section .cart-section__cart_svg {
-		margin-top: -70px;
-	}
-	
-	/* hover card */
-	
-	/* -- fotografia ---*/
-	.cart-section .cart-fotografia:hover {
-		border: 1px solid #503AA6;
-		box-shadow: 4px 4px 0px #503AA6;
-		transition: transform .05s;
-	
-	}
-	
-	.cart-section .cart-fotografia:hover .svg-fotografia {
-		fill: #503AA6;
-	}
-	
-	.cart-section .cart-fotografia:hover p {
-		color: #503AA6;
-	}
-	
-	.cart-section .cart-fotografia:hover h2 {
-		color: #503AA6;
-	}
-	
-	
-	/* -- marketing ---*/
-	.cart-section .cart-marketing:hover {
-		border: 1px solid #D96B2B;
-		box-shadow: 4px 4px 0px #D96B2B;
-		transition: transform .05s;
-	
-	}
-	
-	.cart-section .cart-marketing:hover .svg-marketing {
-		fill: #D96B2B;
-	}
-	
-	.cart-section .cart-marketing:hover p {
-		color: #D96B2B;
-	}
-	
-	.cart-section .cart-marketing:hover h2 {
-		color: #D96B2B;
-	}
-	
-	/* -- desarrollo web --*/
-	.cart-section .cart-web:hover {
-		border: 1px solid #28BFB2;
-		box-shadow: 4px 4px 0px #28BFB2;
-		transition: transform .05s;
-	
-	}
-	
-	.cart-section .cart-web:hover .svg-web {
-		fill: #28BFB2;
-	}
-	
-	.cart-section .cart-web:hover p {
-		color: #28BFB2;
-	}
-	
-	.cart-section .cart-web:hover h2 {
-		color: #28BFB2;
-	}
-	
-	/* -- desarrollo tecnologico -- */
-	.cart-section .cart-desarrollo:hover {
-		border: 1px solid #284694;
-		box-shadow: 4px 4px 0px #284694;
-		transition: transform .05s;
-	
-	}
-	
-	.cart-section .cart-desarrollo:hover .svg-desarrollo {
-		fill: #284694;
-	}
-	
-	.cart-section .cart-desarrollo:hover p {
-		color: #284694;
-	}
-	
-	.cart-section .cart-desarrollo:hover h2 {
-		color: #284694;
-	}
-	
-	/* -- comercio electronico*/
-	.cart-section .cart-comercio:hover {
-		border: 1px solid #929629;
-		box-shadow: 4px 4px 0px #929629;
-		transition: transform .05s;
-	
-	}
-	
-	.cart-section .cart-comercio:hover .svg-comercio {
-		fill: #929629;
-	}
-	
-	.cart-section .cart-comercio:hover p {
-		color: #929629;
-	}
-	
-	.cart-section .cart-comercio:hover h2 {
-		color: #929629;
-	}
-	
-	
-	/* -- videojuegos -- */
-	.cart-section .cart-videojuego:hover {
-		border: 1px solid #28BFB2;
-		box-shadow: 4px 4px 0px #28BFB2;
-		transition: transform .05s;
-	
-	}
-	
-	.cart-section .cart-videojuego:hover .svg-videojuego {
-		fill: #28BFB2;
-	}
-	
-	.cart-section .cart-videojuego:hover p {
-		color: #28BFB2;
-	}
-	
-	.cart-section .cart-videojuego:hover h2 {
-		color: #28BFB2;
-	}
+
+
+.cart-section .cart-section__cart p {
+	font-family: 'Barlow_regular';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: -0.02em;
+	color: #50535C;
+
+}
+
+
+.cart-section .cart-section__cart h2 {
+	font-family: 'Barlow_condensed_regular';
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #50535C;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+
+.cart-section .cart-section__cart_svg {
+	margin-top: -70px;
+}
+
+/* hover card */
+
+/* -- fotografia ---*/
+.cart-section .cart-fotografia:hover {
+	border: 1px solid #503AA6;
+	box-shadow: 4px 4px 0px #503AA6;
+	transition: transform .05s;
+
+}
+
+.cart-section .cart-fotografia:hover .svg-fotografia {
+	fill: #503AA6;
+}
+
+.cart-section .cart-fotografia:hover p {
+	color: #503AA6;
+}
+
+.cart-section .cart-fotografia:hover h2 {
+	color: #503AA6;
+}
+
+
+/* -- marketing ---*/
+.cart-section .cart-marketing:hover {
+	border: 1px solid #D96B2B;
+	box-shadow: 4px 4px 0px #D96B2B;
+	transition: transform .05s;
+
+}
+
+.cart-section .cart-marketing:hover .svg-marketing {
+	fill: #D96B2B;
+}
+
+.cart-section .cart-marketing:hover p {
+	color: #D96B2B;
+}
+
+.cart-section .cart-marketing:hover h2 {
+	color: #D96B2B;
+}
+
+/* -- desarrollo web --*/
+.cart-section .cart-web:hover {
+	border: 1px solid #28BFB2;
+	box-shadow: 4px 4px 0px #28BFB2;
+	transition: transform .05s;
+
+}
+
+.cart-section .cart-web:hover .svg-web {
+	fill: #28BFB2;
+}
+
+.cart-section .cart-web:hover p {
+	color: #28BFB2;
+}
+
+.cart-section .cart-web:hover h2 {
+	color: #28BFB2;
+}
+
+/* -- desarrollo tecnologico -- */
+.cart-section .cart-desarrollo:hover {
+	border: 1px solid #284694;
+	box-shadow: 4px 4px 0px #284694;
+	transition: transform .05s;
+
+}
+
+.cart-section .cart-desarrollo:hover .svg-desarrollo {
+	fill: #284694;
+}
+
+.cart-section .cart-desarrollo:hover p {
+	color: #284694;
+}
+
+.cart-section .cart-desarrollo:hover h2 {
+	color: #284694;
+}
+
+/* -- comercio electronico*/
+.cart-section .cart-comercio:hover {
+	border: 1px solid #929629;
+	box-shadow: 4px 4px 0px #929629;
+	transition: transform .05s;
+
+}
+
+.cart-section .cart-comercio:hover .svg-comercio {
+	fill: #929629;
+}
+
+.cart-section .cart-comercio:hover p {
+	color: #929629;
+}
+
+.cart-section .cart-comercio:hover h2 {
+	color: #929629;
+}
+
+
+/* -- videojuegos -- */
+.cart-section .cart-videojuego:hover {
+	border: 1px solid #28BFB2;
+	box-shadow: 4px 4px 0px #28BFB2;
+	transition: transform .05s;
+
+}
+
+.cart-section .cart-videojuego:hover .svg-videojuego {
+	fill: #28BFB2;
+}
+
+.cart-section .cart-videojuego:hover p {
+	color: #28BFB2;
+}
+
+.cart-section .cart-videojuego:hover h2 {
+	color: #28BFB2;
+}
 }

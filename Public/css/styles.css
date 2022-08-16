@@ -1766,3 +1766,16 @@ html {
 .form--disabled{
     display: none;
 }
+
+.footer__line{
+    width: 100%;
+    background-color: var(--primaryBlue);
+    display: flex;
+    justify-content: center;
+}
+
+.line__white{
+    width: 90%;
+    border: 1px solid white;
+
+}
