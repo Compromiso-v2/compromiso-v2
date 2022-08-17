@@ -720,6 +720,11 @@ html {
         flex-wrap: wrap;
     }
     
+    .glider{
+        overflow: hidden;
+    }
+
+
     .slides {
         display: flex;
         justify-content: center;
@@ -1556,6 +1561,11 @@ html {
         flex-wrap: wrap;
     }
     
+    .glider{
+        overflow: hidden;
+    }
+
+
     .slides {
         display: flex;
         justify-content: center;
