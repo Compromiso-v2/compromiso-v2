@@ -917,6 +917,10 @@ html {
     .carousel-item img{
         height: 100vh;
     }
+    .carousel-item img {
+        height: 100vh;
+        object-fit: cover;
+    }
 
     .banner__content {
         display: flex;
