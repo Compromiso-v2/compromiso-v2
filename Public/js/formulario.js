@@ -2,7 +2,34 @@ const form = document.querySelector('#form');
 const talents = document.getElementById('talentos');
 const services = document.getElementById('servicios');
 
-form.addEventListener('submit', handlesubmit)
+
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+	'use strict'
+
+	// Fetch all the forms we want to apply custom Bootstrap validation styles to
+	const forms = document.querySelectorAll('.needs-validation')
+
+	// Loop over them and prevent submission
+	Array.from(forms).forEach(form => {
+		form.addEventListener('submit', event => {
+			if (!form.checkValidity()) {
+				event.preventDefault()
+				event.stopPropagation()
+				}
+
+
+			
+			form.classList.add('was-validated')
+			
+			form.addEventListener('submit', handlesubmit)
+			
+				}, false)
+	})
+		
+})()
+
+
 
 async function handlesubmit(event) {
 
@@ -16,7 +43,9 @@ async function handlesubmit(event) {
         }
     })
     if (response.ok) {
-        this.reset()
+        //this.reset()
+
+
         alert("Formulario enviado!")
         gtag('event', 'form send')
     }

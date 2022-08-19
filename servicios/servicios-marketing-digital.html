@@ -266,25 +266,29 @@
 
       <div class="form">
         <h2 class="form__title">Envíanos un mensaje</h2>
-        <form action="https://formspree.io/f/mnqwpkyp" method="POST" id="form">
+        <form action="https://formspree.io/f/mnqwpkyp" method="POST" id="form" class="needs-validation" novalidate>
           <div class="form-group">
             <div class="form__item">
-              <label for="name">Nombre</label>
-              <input id="name" type="text" placeholder="Tu nombre" name="nombre">
+              <label for="name" class="form-label">Nombre</label>
+              <input id="name" type="text" class="form-control" placeholder="Tu nombre" name="nombre" required>
+			  <div class="invalid-feedback"> el nombre no puede ir vacio</div>
             </div>
             <div class="form__item">
-              <label for="phone">Teléfono</label>
-              <input id="phone" type="number" placeholder="Tu telefono" name="telefono">
+              <label for="phone" class=form-label >Teléfono</label>
+              <input id="phone" type="number" placeholder="Tu telefono" name="telefono" class="form-control" required>
+              <div class="invalid-feedback"> el numero de telefono no puede ir vacio</div>
             </div>
           </div>
           <div class="form-group">
             <div class="form__item">
-              <label for="business">Empresa</label>
-              <input id="business" type="text" placeholder="El nombre de tu empresa" name="empresa">
+              <label for="business" class=form-label>Empresa</label>
+              <input id="business" type="text" placeholder="El nombre de tu empresa" name="empresa" class="form-control" required>
+			  <div class="invalid-feedback"> el nombre de la pempresa no puede ir vacio</div>
             </div>
             <div class="form__item">
-              <label for="email">email</label>
-              <input id="email" type="mail" placeholder="Tu email" name="email">
+              <label for="email" class="form-label">email</label>
+              <input id="email" type="mail" placeholder="Tu email" name="email" class="form-control" required>
+			  <div class="invalid-feedback"> el email no puede ir vacio</div>
             </div>
           </div>
           <div class="form-group2">

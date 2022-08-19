@@ -264,62 +264,66 @@
 
 		      <div class="form">
 			<h2 class="form__title">Envíanos un mensaje</h2>
-			<form action="https://formspree.io/f/mnqwpkyp" method="POST" id="form">
-			  <div class="form-group">
-			    <div class="form__item">
-			      <label for="name">Nombre</label>
-			      <input id="name" type="text" placeholder="Tu nombre" name="nombre">
-			    </div>
-			    <div class="form__item">
-			      <label for="phone">Teléfono</label>
-			      <input id="phone" type="number" placeholder="Tu telefono" name="telefono">
-			    </div>
-			  </div>
-			  <div class="form-group">
-			    <div class="form__item">
-			      <label for="business">Empresa</label>
-			      <input id="business" type="text" placeholder="El nombre de tu empresa" name="empresa">
-			    </div>
-			    <div class="form__item">
-			      <label for="email">email</label>
-			      <input id="email" type="mail" placeholder="Tu email" name="email">
-			    </div>
-			  </div>
-			  <div class="form-group2">
-			    <div class="form__item">
-			      <label for="search_talents">Buscar talentos</label>
-			      <select name="talentos">
-				<option value="0" selected>Seleccionar</option>
-				<option value="CLOUD PRACTITIONER AWS">CLOUD PRACTITIONER AWS</option>
-				<option value="PROGRAMADOR FULL STACK">PROGRAMADOR FULL STACK</option>
-				<option value="ASISTENTES DE VENTAS DE E-COMMERCE">ASISTENTES DE VENTAS DE E-COMMERCE</option>
-				<option value="COMMUNITY MANAGER">COMMUNITY MANAGER</option>
-				<option value="ANALISTA DE MARKETING / PAID MEDIA">ANALISTA DE MARKETING / PAID MEDIA</option>
-				<option value="ASISTENTE DE ANIMACION DE VIDEO">ASISTENTE DE ANIMACION DE VIDEO</option>
-				<option value="ASISTENTE DE DESARROLLO DE VIDEOJUEGOS">ASISTENTE DE DESARROLLO DE VIDEOJUEGOS</option>
-			      </select>
-			    </div>
-			    <div class="form__item">
-			      <label for="search_services">Contratar servicios</label>
-			      <select name="servicios">
-				<option value="0" selected>Seleccionar</option>
-				<option value="Desarrollo de videojuegos">Desarrollo de videojuegos</option>
-				<option value="Fotografia de productos">Fotografia de productos</option>
-				<option value="Comercio electronico">Comercio electronico</option>
-				<option value="Marketing digital">Marketing digital</option>
-				<option value="Desarrollo tecnologico">Desarrollo tecnologico</option>
-				<option value="Desarrollo web">Desarrollo web</option>
-			      </select>
-			    </div>
-			  </div>
-			  <div class="form-group">
-			    <div class="form__item">
-			      <label for="message">Mensaje</label>
-			      <textarea id="message" name="message" rows="4" cols="50" name="mensaje"></textarea>
-			    </div>
-			  </div>
-			  <input type="submit" value="Enviar mensaje">
-			</form>
+			<form action="https://formspree.io/f/mnqwpkyp" method="POST" id="form" class="needs-validation" novalidate>
+          <div class="form-group">
+            <div class="form__item">
+              <label for="name" class="form-label">Nombre</label>
+              <input id="name" type="text" class="form-control" placeholder="Tu nombre" name="nombre" required>
+			  <div class="invalid-feedback"> el nombre no puede ir vacio</div>
+            </div>
+            <div class="form__item">
+              <label for="phone" class=form-label >Teléfono</label>
+              <input id="phone" type="number" placeholder="Tu telefono" name="telefono" class="form-control" required>
+              <div class="invalid-feedback"> el numero de telefono no puede ir vacio</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form__item">
+              <label for="business" class=form-label>Empresa</label>
+              <input id="business" type="text" placeholder="El nombre de tu empresa" name="empresa" class="form-control" required>
+			  <div class="invalid-feedback"> el nombre de la pempresa no puede ir vacio</div>
+            </div>
+            <div class="form__item">
+              <label for="email" class="form-label">email</label>
+              <input id="email" type="mail" placeholder="Tu email" name="email" class="form-control" required>
+			  <div class="invalid-feedback"> el email no puede ir vacio</div>
+            </div>
+          </div>
+          <div class="form-group2">
+            <div class="form__item">
+              <label for="search_talents">Buscar talentos</label>
+              <select name="talentos">
+                <option value="0" selected>Seleccionar</option>
+                <option value="CLOUD PRACTITIONER AWS">CLOUD PRACTITIONER AWS</option>
+                <option value="PROGRAMADOR FULL STACK">PROGRAMADOR FULL STACK</option>
+                <option value="ASISTENTES DE VENTAS DE E-COMMERCE">ASISTENTES DE VENTAS DE E-COMMERCE</option>
+                <option value="COMMUNITY MANAGER">COMMUNITY MANAGER</option>
+                <option value="ANALISTA DE MARKETING / PAID MEDIA">ANALISTA DE MARKETING / PAID MEDIA</option>
+                <option value="ASISTENTE DE ANIMACION DE VIDEO">ASISTENTE DE ANIMACION DE VIDEO</option>
+                <option value="ASISTENTE DE DESARROLLO DE VIDEOJUEGOS">ASISTENTE DE DESARROLLO DE VIDEOJUEGOS</option>
+              </select>
+            </div>
+            <div class="form__item">
+              <label for="search_services">Contratar servicios</label>
+              <select name="servicios">
+                <option value="0" selected>Seleccionar</option>
+                <option value="Desarrollo de videojuegos">Desarrollo de videojuegos</option>
+                <option value="Fotografia de productos">Fotografia de productos</option>
+                <option value="Comercio electronico">Comercio electronico</option>
+                <option value="Marketing digital">Marketing digital</option>
+                <option value="Desarrollo tecnologico">Desarrollo tecnologico</option>
+                <option value="Desarrollo web">Desarrollo web</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form__item">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="4" cols="50" name="mensaje"></textarea>
+            </div>
+          </div>
+          <input type="submit" value="Enviar mensaje">
+        </form>
 		      </div>
    		 </section>
 		<div class="footer__line">
