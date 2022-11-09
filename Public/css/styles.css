@@ -66,6 +66,44 @@ html {
     scroll-behavior: smooth;
 }
 
+
+/* BOTON WSP */
+
+.menu-content {
+
+    width: 200px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0;
+    right: 10px;
+    transition: transform 300ms;
+}
+
+.menu-static {
+    bottom: 10vh;
+    position: absolute;
+}
+
+#menu {
+    z-index: 10;
+}
+
+/* ---- */
+
+
+
 .section__title {
     text-align: center;
     text-transform: uppercase;
